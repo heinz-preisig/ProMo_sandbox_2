@@ -1,212 +1,110 @@
 {
   "1": {
-    "variable_ID": 3,
-    "lhs": " V_3",
-    "network": "root",
-    "rhs": " O_11 D_0 V_1 D_7 V_2 D_1"
-  },
-  "2": {
     "variable_ID": 4,
     "lhs": " V_4",
     "network": "root",
-    "rhs": " O_11 D_0 V_1 D_7 V_2 D_1"
+    "rhs": " O_11 D_0 V_3 D_7 V_3 D_1"
   },
-  "7": {
-    "variable_ID": 11,
-    "lhs": " V_11",
-    "network": "System",
-    "rhs": " V_9 O_4 V_5"
-  },
-  "8": {
-    "variable_ID": 12,
-    "lhs": " V_12",
-    "network": "System",
-    "rhs": " V_10 O_4 V_5"
-  },
-  "12": {
-    "variable_ID": 17,
-    "lhs": " V_17",
-    "network": "System",
-    "rhs": " O_11 D_0 V_5 D_7 V_2 D_1"
-  },
-  "14": {
-    "variable_ID": 11,
-    "lhs": " V_11",
-    "network": "System",
-    "rhs": " O_11 D_0 V_11 D_7 V_2 D_1"
-  },
-  "15": {
-    "variable_ID": 12,
-    "lhs": " V_12",
-    "network": "System",
-    "rhs": " O_11 D_0 V_12 D_7 V_2 D_1"
-  },
-  "16": {
-    "variable_ID": 18,
-    "lhs": " V_18",
-    "network": "root",
-    "rhs": " O_11 D_0 V_2 D_7 V_2 D_1"
-  },
-  "17": {
-    "variable_ID": 19,
-    "lhs": " V_19",
-    "network": "root",
-    "rhs": " O_11 D_0 V_2 D_7 V_2 D_1"
-  },
-  "18": {
-    "variable_ID": 16,
-    "lhs": " V_16",
-    "network": "System",
-    "rhs": " O_11 D_0 V_16 D_7 V_18 D_1"
-  },
-  "19": {
-    "variable_ID": 20,
-    "lhs": " V_20",
-    "network": "System",
-    "rhs": " F_20 D_0 V_11 D_7 V_12 D_1"
-  },
-  "22": {
-    "variable_ID": 23,
-    "lhs": " V_23",
-    "network": "System",
-    "rhs": " O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1"
-  },
-  "23": {
-    "variable_ID": 24,
-    "lhs": " V_24",
-    "network": "System",
-    "rhs": " V_22 O_4 V_21"
-  },
-  "26": {
-    "variable_ID": 27,
-    "lhs": " V_27",
-    "network": "System",
-    "rhs": " O_11 D_0 V_21 D_7 V_2 D_1"
-  },
-  "30": {
-    "variable_ID": 30,
-    "lhs": " V_30",
-    "network": "System",
-    "rhs": " O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1"
-  },
-  "32": {
-    "variable_ID": 33,
-    "lhs": " V_33",
-    "network": "System",
-    "rhs": " V_31 O_4 V_21"
-  },
-  "36": {
-    "variable_ID": 26,
-    "lhs": " V_26",
-    "network": "System",
-    "rhs": " O_11 D_0 V_26 D_7 V_2 D_1"
-  },
-  "40": {
-    "variable_ID": 7,
-    "lhs": " V_7",
-    "network": "System",
-    "rhs": " O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1"
-  },
-  "41": {
-    "variable_ID": 8,
-    "lhs": " V_8",
-    "network": "System",
-    "rhs": " O_11 D_0 F_15 D_0 V_1 D_1 D_7 V_2 D_1"
-  },
-  "42": {
-    "variable_ID": 9,
-    "lhs": " V_9",
-    "network": "System",
-    "rhs": " O_11 D_0 V_2 D_7 V_2 D_1"
-  },
-  "43": {
-    "variable_ID": 10,
-    "lhs": " V_10",
-    "network": "System",
-    "rhs": " O_11 D_0 V_2 D_7 V_2 D_1"
-  },
-  "44": {
-    "variable_ID": 36,
-    "lhs": " V_36",
-    "network": "System",
-    "rhs": " F_20 D_0 V_24 D_7 V_33 D_1"
-  },
-  "50": {
-    "variable_ID": 37,
-    "lhs": " V_37",
-    "network": "System",
-    "rhs": " V_13  O_5  I_2 O_5  D_0 V_7 O_4 V_13  O_5  I_1 O_5  V_11 D_1"
-  },
-  "51": {
-    "variable_ID": 38,
-    "lhs": " V_38",
-    "network": "System",
-    "rhs": " V_13  O_5  I_2 O_5  D_0 V_8 O_4 V_13  O_5  I_1 O_5  V_12 D_1"
-  },
-  "52": {
-    "variable_ID": 39,
-    "lhs": " V_39",
-    "network": "System",
-    "rhs": " V_13  O_5  I_2 O_5  D_0 V_23 O_4 V_13  O_5  I_1 O_5  V_24 D_1"
-  },
-  "53": {
-    "variable_ID": 40,
-    "lhs": " V_40",
-    "network": "System",
-    "rhs": " V_13  O_5  I_2 O_5  D_0 V_30 O_4 V_13  O_5  I_1 O_5  V_33 D_1"
-  },
-  "54": {
-    "variable_ID": 40,
-    "lhs": " V_40",
-    "network": "System",
-    "rhs": " O_11 D_0 V_40 D_7 V_2 D_1"
-  },
-  "55": {
-    "variable_ID": 37,
-    "lhs": " V_37",
-    "network": "System",
-    "rhs": " O_11 D_0 V_37 D_7 V_2 D_1"
-  },
-  "57": {
-    "variable_ID": 39,
-    "lhs": " V_39",
-    "network": "System",
-    "rhs": " O_11 D_0 V_39 D_7 V_2 D_1"
-  },
-  "58": {
-    "variable_ID": 16,
-    "lhs": " V_16",
-    "network": "System",
-    "rhs": " V_37 O_0 V_38"
-  },
-  "59": {
-    "variable_ID": 26,
-    "lhs": " V_26",
-    "network": "System",
-    "rhs": " V_39 O_0 V_40"
-  },
-  "62": {
+  "2": {
     "variable_ID": 5,
     "lhs": " V_5",
-    "network": "System",
-    "rhs": " O_9 D_0 V_16 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1 O_0 V_17"
+    "network": "root",
+    "rhs": " O_11 D_0 V_3 D_7 V_3 D_1"
   },
-  "63": {
+  "3": {
+    "variable_ID": 6,
+    "lhs": " V_6",
+    "network": "root",
+    "rhs": " O_11 D_0 V_1 D_7 V_3 D_1"
+  },
+  "4": {
+    "variable_ID": 7,
+    "lhs": " V_7",
+    "network": "root",
+    "rhs": " O_11 D_0 V_1 D_7 V_3 D_1"
+  },
+  "5": {
+    "variable_ID": 11,
+    "lhs": " V_11",
+    "network": "System",
+    "rhs": " O_11 D_0 V_9 D_7 V_3 D_1"
+  },
+  "6": {
+    "variable_ID": 12,
+    "lhs": " V_12",
+    "network": "System",
+    "rhs": " O_11 D_0 V_10 D_7 V_3 D_1"
+  },
+  "7": {
     "variable_ID": 21,
     "lhs": " V_21",
     "network": "System",
-    "rhs": " O_9 D_0 V_26 D_8 V_1 O_14 D_2 V_3 D_7 V_4 D_3 D_1 O_0 V_27"
+    "rhs": " V_17 O_4 V_9"
   },
-  "64": {
-    "variable_ID": 41,
-    "lhs": " V_41",
+  "8": {
+    "variable_ID": 22,
+    "lhs": " V_22",
     "network": "System",
-    "rhs": " F_19 D_0 V_5 D_7 V_21 D_1"
+    "rhs": " V_18 O_4 V_9"
   },
-  "66": {
-    "variable_ID": 38,
-    "lhs": " V_38",
+  "9": {
+    "variable_ID": 23,
+    "lhs": " V_23",
     "network": "System",
-    "rhs": " O_11 D_0 V_37 D_7 V_2 D_1"
+    "rhs": " V_19 O_4 V_10"
+  },
+  "10": {
+    "variable_ID": 24,
+    "lhs": " V_24",
+    "network": "System",
+    "rhs": " V_20 O_4 V_10"
+  },
+  "11": {
+    "variable_ID": 25,
+    "lhs": " V_25",
+    "network": "System",
+    "rhs": " V_8  O_5  I_2 O_5  D_0 V_13 O_4 V_8  O_5  I_1 O_5  V_21 D_1"
+  },
+  "12": {
+    "variable_ID": 26,
+    "lhs": " V_26",
+    "network": "System",
+    "rhs": " V_8  O_5  I_2 O_5  D_0 V_14 O_4 V_8  O_5  I_1 O_5  V_22 D_1"
+  },
+  "14": {
+    "variable_ID": 27,
+    "lhs": " V_27",
+    "network": "System",
+    "rhs": " V_8  O_5  I_2 O_5  D_0 V_15 O_4 V_8  O_5  I_1 O_5  V_23 D_1"
+  },
+  "15": {
+    "variable_ID": 28,
+    "lhs": " V_28",
+    "network": "System",
+    "rhs": " V_8  O_5  I_2 O_5  D_0 V_16 O_4 V_8  O_5  I_1 O_5  V_24 D_1"
+  },
+  "16": {
+    "variable_ID": 29,
+    "lhs": " V_29",
+    "network": "System",
+    "rhs": " V_25 O_0 V_26"
+  },
+  "17": {
+    "variable_ID": 30,
+    "lhs": " V_30",
+    "network": "System",
+    "rhs": " V_27 O_0 V_28"
+  },
+  "20": {
+    "variable_ID": 9,
+    "lhs": " V_9",
+    "network": "System",
+    "rhs": " O_9 D_0 V_29 D_8 V_1 O_14 D_2 V_6 D_7 V_7 D_3 D_1 O_0 V_11"
+  },
+  "21": {
+    "variable_ID": 10,
+    "lhs": " V_10",
+    "network": "System",
+    "rhs": " O_9 D_0 V_30 D_8 V_1 O_14 D_2 V_6 D_7 V_7 D_3 D_1 O_0 V_12"
   }
 }

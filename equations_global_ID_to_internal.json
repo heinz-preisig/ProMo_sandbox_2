@@ -1,13 +1,33 @@
 {
   "1": {
+    "lhs": "one",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "2": {
+    "lhs": "null",
+    "network": "root",
+    "rhs": " Instantiate ( value , value )"
+  },
+  "3": {
     "lhs": "to",
     "network": "root",
     "rhs": " Instantiate ( t , value )"
   },
-  "2": {
+  "4": {
     "lhs": "te",
     "network": "root",
     "rhs": " Instantiate ( t , value )"
+  },
+  "5": {
+    "lhs": "xo",
+    "network": "System",
+    "rhs": " Instantiate ( x , value )"
+  },
+  "6": {
+    "lhs": "yo",
+    "network": "System",
+    "rhs": " Instantiate ( y , value )"
   },
   "7": {
     "lhs": "pi_A_alpha",
@@ -19,159 +39,54 @@
     "network": "System",
     "rhs": " M_A_beta . x"
   },
-  "12": {
-    "lhs": "xo",
-    "network": "System",
-    "rhs": " Instantiate ( x , value )"
-  },
-  "14": {
-    "lhs": "pi_A_alpha",
-    "network": "System",
-    "rhs": " Instantiate ( pi_A_alpha , value )"
-  },
-  "15": {
-    "lhs": "pi_A_beta",
-    "network": "System",
-    "rhs": " Instantiate ( pi_A_beta , value )"
-  },
-  "16": {
-    "lhs": "null",
-    "network": "root",
-    "rhs": " Instantiate ( value , value )"
-  },
-  "17": {
-    "lhs": "one",
-    "network": "root",
-    "rhs": " Instantiate ( value , value )"
-  },
-  "18": {
-    "lhs": "dx",
-    "network": "System",
-    "rhs": " Instantiate ( dx , null )"
-  },
-  "19": {
-    "lhs": "pi_A_stack",
-    "network": "System",
-    "rhs": " Stack ( pi_A_alpha , pi_A_beta )"
-  },
-  "22": {
-    "lhs": "K_B_gamma",
-    "network": "System",
-    "rhs": " Instantiate ( inv ( t ) , value )"
-  },
-  "23": {
+  "9": {
     "lhs": "pi_B_gamma",
     "network": "System",
     "rhs": " M_B_gamma . y"
   },
-  "26": {
-    "lhs": "yo",
-    "network": "System",
-    "rhs": " Instantiate ( y , value )"
-  },
-  "30": {
-    "lhs": "K_B_delta",
-    "network": "System",
-    "rhs": " Instantiate ( inv ( t ) , value )"
-  },
-  "32": {
+  "10": {
     "lhs": "pi_B_delta",
     "network": "System",
     "rhs": " M_B_delta . y"
   },
-  "36": {
-    "lhs": "dy",
-    "network": "System",
-    "rhs": " Instantiate ( dy , value )"
-  },
-  "40": {
-    "lhs": "K_A_alpha",
-    "network": "System",
-    "rhs": " Instantiate ( inv ( t ) , value )"
-  },
-  "41": {
-    "lhs": "K_A_beta",
-    "network": "System",
-    "rhs": " Instantiate ( inv ( t ) , value )"
-  },
-  "42": {
-    "lhs": "M_A_alpha",
-    "network": "System",
-    "rhs": " Instantiate ( value , value )"
-  },
-  "43": {
-    "lhs": "M_A_beta",
-    "network": "System",
-    "rhs": " Instantiate ( value , value )"
-  },
-  "44": {
-    "lhs": "pi_B_stack",
-    "network": "System",
-    "rhs": " Stack ( pi_B_gamma , pi_B_delta )"
-  },
-  "50": {
+  "11": {
     "lhs": "fx_A_alpha",
     "network": "System",
     "rhs": " F | A | ( K_A_alpha . F | N | pi_A_alpha )"
   },
-  "51": {
+  "12": {
     "lhs": "fx_A_beta",
     "network": "System",
     "rhs": " F | A | ( K_A_beta . F | N | pi_A_beta )"
   },
-  "52": {
-    "lhs": "fy_B_gamma",
+  "14": {
+    "lhs": "fx_B_gamma",
     "network": "System",
     "rhs": " F | A | ( K_B_gamma . F | N | pi_B_gamma )"
   },
-  "53": {
-    "lhs": "fy_B_delta",
+  "15": {
+    "lhs": "fx_B_delta",
     "network": "System",
     "rhs": " F | A | ( K_B_delta . F | N | pi_B_delta )"
   },
-  "54": {
-    "lhs": "fy_B_delta",
-    "network": "System",
-    "rhs": " Instantiate ( fy_B_delta , value )"
-  },
-  "55": {
-    "lhs": "fx_A_alpha",
-    "network": "System",
-    "rhs": " Instantiate ( fx_A_alpha , value )"
-  },
-  "57": {
-    "lhs": "fy_B_gamma",
-    "network": "System",
-    "rhs": " Instantiate ( fy_B_gamma , value )"
-  },
-  "58": {
+  "16": {
     "lhs": "dx",
     "network": "System",
     "rhs": " fx_A_alpha + fx_A_beta"
   },
-  "59": {
+  "17": {
     "lhs": "dy",
     "network": "System",
-    "rhs": " fy_B_gamma + fy_B_delta"
+    "rhs": " fx_B_gamma + fx_B_delta"
   },
-  "62": {
+  "20": {
     "lhs": "x",
     "network": "System",
     "rhs": " Integral ( dx :: t in [ to , te ] ) + xo"
   },
-  "63": {
+  "21": {
     "lhs": "y",
     "network": "System",
     "rhs": " Integral ( dy :: t in [ to , te ] ) + yo"
-  },
-  "64": {
-    "lhs": "xy_stack",
-    "network": "System",
-    "rhs": " MixedStack ( x , y )"
-  },
-  "66": {
-    "lhs": "fx_A_beta",
-    "network": "System",
-    "rhs": " Instantiate ( fx_A_alpha , value )"
   }
 }

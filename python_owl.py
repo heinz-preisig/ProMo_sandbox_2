@@ -98,28 +98,6 @@ V_1.temperature = [ units[4] ]
 V_1.current = [ units[5] ]
 V_1.light = [ units[6] ]
 
-# 2
-label = variables[2]["label"]
-network = variables[2]["network"]
-variable_type = variables[2]["type"]
-label = variables[2]["label"]
-doc = variables[2]["doc"]
-onto_ID = "V_2"
-V_2 = onto.ProMoVar( onto_ID )
-V_2.label = label
-V_2.network = network
-V_2.variable_type = variable_type
-V_2.comment = doc
-
-units = variables[2]["units"].asList()
-V_2.time = [ units[0] ]
-V_2.length = [ units[1] ]
-V_2.amount = [ units[2] ]
-V_2.mass = [ units[3] ]
-V_2.temperature = [ units[4] ]
-V_2.current = [ units[5] ]
-V_2.light = [ units[6] ]
-
 # 3
 label = variables[3]["label"]
 network = variables[3]["network"]
@@ -185,6 +163,28 @@ V_5.mass = [ units[3] ]
 V_5.temperature = [ units[4] ]
 V_5.current = [ units[5] ]
 V_5.light = [ units[6] ]
+
+# 6
+label = variables[6]["label"]
+network = variables[6]["network"]
+variable_type = variables[6]["type"]
+label = variables[6]["label"]
+doc = variables[6]["doc"]
+onto_ID = "V_6"
+V_6 = onto.ProMoVar( onto_ID )
+V_6.label = label
+V_6.network = network
+V_6.variable_type = variable_type
+V_6.comment = doc
+
+units = variables[6]["units"].asList()
+V_6.time = [ units[0] ]
+V_6.length = [ units[1] ]
+V_6.amount = [ units[2] ]
+V_6.mass = [ units[3] ]
+V_6.temperature = [ units[4] ]
+V_6.current = [ units[5] ]
+V_6.light = [ units[6] ]
 
 # 7
 label = variables[7]["label"]
@@ -339,6 +339,50 @@ V_13.mass = [ units[3] ]
 V_13.temperature = [ units[4] ]
 V_13.current = [ units[5] ]
 V_13.light = [ units[6] ]
+
+# 14
+label = variables[14]["label"]
+network = variables[14]["network"]
+variable_type = variables[14]["type"]
+label = variables[14]["label"]
+doc = variables[14]["doc"]
+onto_ID = "V_14"
+V_14 = onto.ProMoVar( onto_ID )
+V_14.label = label
+V_14.network = network
+V_14.variable_type = variable_type
+V_14.comment = doc
+
+units = variables[14]["units"].asList()
+V_14.time = [ units[0] ]
+V_14.length = [ units[1] ]
+V_14.amount = [ units[2] ]
+V_14.mass = [ units[3] ]
+V_14.temperature = [ units[4] ]
+V_14.current = [ units[5] ]
+V_14.light = [ units[6] ]
+
+# 15
+label = variables[15]["label"]
+network = variables[15]["network"]
+variable_type = variables[15]["type"]
+label = variables[15]["label"]
+doc = variables[15]["doc"]
+onto_ID = "V_15"
+V_15 = onto.ProMoVar( onto_ID )
+V_15.label = label
+V_15.network = network
+V_15.variable_type = variable_type
+V_15.comment = doc
+
+units = variables[15]["units"].asList()
+V_15.time = [ units[0] ]
+V_15.length = [ units[1] ]
+V_15.amount = [ units[2] ]
+V_15.mass = [ units[3] ]
+V_15.temperature = [ units[4] ]
+V_15.current = [ units[5] ]
+V_15.light = [ units[6] ]
 
 # 16
 label = variables[16]["label"]
@@ -538,6 +582,28 @@ V_24.temperature = [ units[4] ]
 V_24.current = [ units[5] ]
 V_24.light = [ units[6] ]
 
+# 25
+label = variables[25]["label"]
+network = variables[25]["network"]
+variable_type = variables[25]["type"]
+label = variables[25]["label"]
+doc = variables[25]["doc"]
+onto_ID = "V_25"
+V_25 = onto.ProMoVar( onto_ID )
+V_25.label = label
+V_25.network = network
+V_25.variable_type = variable_type
+V_25.comment = doc
+
+units = variables[25]["units"].asList()
+V_25.time = [ units[0] ]
+V_25.length = [ units[1] ]
+V_25.amount = [ units[2] ]
+V_25.mass = [ units[3] ]
+V_25.temperature = [ units[4] ]
+V_25.current = [ units[5] ]
+V_25.light = [ units[6] ]
+
 # 26
 label = variables[26]["label"]
 network = variables[26]["network"]
@@ -582,6 +648,50 @@ V_27.temperature = [ units[4] ]
 V_27.current = [ units[5] ]
 V_27.light = [ units[6] ]
 
+# 28
+label = variables[28]["label"]
+network = variables[28]["network"]
+variable_type = variables[28]["type"]
+label = variables[28]["label"]
+doc = variables[28]["doc"]
+onto_ID = "V_28"
+V_28 = onto.ProMoVar( onto_ID )
+V_28.label = label
+V_28.network = network
+V_28.variable_type = variable_type
+V_28.comment = doc
+
+units = variables[28]["units"].asList()
+V_28.time = [ units[0] ]
+V_28.length = [ units[1] ]
+V_28.amount = [ units[2] ]
+V_28.mass = [ units[3] ]
+V_28.temperature = [ units[4] ]
+V_28.current = [ units[5] ]
+V_28.light = [ units[6] ]
+
+# 29
+label = variables[29]["label"]
+network = variables[29]["network"]
+variable_type = variables[29]["type"]
+label = variables[29]["label"]
+doc = variables[29]["doc"]
+onto_ID = "V_29"
+V_29 = onto.ProMoVar( onto_ID )
+V_29.label = label
+V_29.network = network
+V_29.variable_type = variable_type
+V_29.comment = doc
+
+units = variables[29]["units"].asList()
+V_29.time = [ units[0] ]
+V_29.length = [ units[1] ]
+V_29.amount = [ units[2] ]
+V_29.mass = [ units[3] ]
+V_29.temperature = [ units[4] ]
+V_29.current = [ units[5] ]
+V_29.light = [ units[6] ]
+
 # 30
 label = variables[30]["label"]
 network = variables[30]["network"]
@@ -604,538 +714,234 @@ V_30.temperature = [ units[4] ]
 V_30.current = [ units[5] ]
 V_30.light = [ units[6] ]
 
-# 31
-label = variables[31]["label"]
-network = variables[31]["network"]
-variable_type = variables[31]["type"]
-label = variables[31]["label"]
-doc = variables[31]["doc"]
-onto_ID = "V_31"
-V_31 = onto.ProMoVar( onto_ID )
-V_31.label = label
-V_31.network = network
-V_31.variable_type = variable_type
-V_31.comment = doc
-
-units = variables[31]["units"].asList()
-V_31.time = [ units[0] ]
-V_31.length = [ units[1] ]
-V_31.amount = [ units[2] ]
-V_31.mass = [ units[3] ]
-V_31.temperature = [ units[4] ]
-V_31.current = [ units[5] ]
-V_31.light = [ units[6] ]
-
-# 33
-label = variables[33]["label"]
-network = variables[33]["network"]
-variable_type = variables[33]["type"]
-label = variables[33]["label"]
-doc = variables[33]["doc"]
-onto_ID = "V_33"
-V_33 = onto.ProMoVar( onto_ID )
-V_33.label = label
-V_33.network = network
-V_33.variable_type = variable_type
-V_33.comment = doc
-
-units = variables[33]["units"].asList()
-V_33.time = [ units[0] ]
-V_33.length = [ units[1] ]
-V_33.amount = [ units[2] ]
-V_33.mass = [ units[3] ]
-V_33.temperature = [ units[4] ]
-V_33.current = [ units[5] ]
-V_33.light = [ units[6] ]
-
-# 36
-label = variables[36]["label"]
-network = variables[36]["network"]
-variable_type = variables[36]["type"]
-label = variables[36]["label"]
-doc = variables[36]["doc"]
-onto_ID = "V_36"
-V_36 = onto.ProMoVar( onto_ID )
-V_36.label = label
-V_36.network = network
-V_36.variable_type = variable_type
-V_36.comment = doc
-
-units = variables[36]["units"].asList()
-V_36.time = [ units[0] ]
-V_36.length = [ units[1] ]
-V_36.amount = [ units[2] ]
-V_36.mass = [ units[3] ]
-V_36.temperature = [ units[4] ]
-V_36.current = [ units[5] ]
-V_36.light = [ units[6] ]
-
-# 37
-label = variables[37]["label"]
-network = variables[37]["network"]
-variable_type = variables[37]["type"]
-label = variables[37]["label"]
-doc = variables[37]["doc"]
-onto_ID = "V_37"
-V_37 = onto.ProMoVar( onto_ID )
-V_37.label = label
-V_37.network = network
-V_37.variable_type = variable_type
-V_37.comment = doc
-
-units = variables[37]["units"].asList()
-V_37.time = [ units[0] ]
-V_37.length = [ units[1] ]
-V_37.amount = [ units[2] ]
-V_37.mass = [ units[3] ]
-V_37.temperature = [ units[4] ]
-V_37.current = [ units[5] ]
-V_37.light = [ units[6] ]
-
-# 38
-label = variables[38]["label"]
-network = variables[38]["network"]
-variable_type = variables[38]["type"]
-label = variables[38]["label"]
-doc = variables[38]["doc"]
-onto_ID = "V_38"
-V_38 = onto.ProMoVar( onto_ID )
-V_38.label = label
-V_38.network = network
-V_38.variable_type = variable_type
-V_38.comment = doc
-
-units = variables[38]["units"].asList()
-V_38.time = [ units[0] ]
-V_38.length = [ units[1] ]
-V_38.amount = [ units[2] ]
-V_38.mass = [ units[3] ]
-V_38.temperature = [ units[4] ]
-V_38.current = [ units[5] ]
-V_38.light = [ units[6] ]
-
-# 39
-label = variables[39]["label"]
-network = variables[39]["network"]
-variable_type = variables[39]["type"]
-label = variables[39]["label"]
-doc = variables[39]["doc"]
-onto_ID = "V_39"
-V_39 = onto.ProMoVar( onto_ID )
-V_39.label = label
-V_39.network = network
-V_39.variable_type = variable_type
-V_39.comment = doc
-
-units = variables[39]["units"].asList()
-V_39.time = [ units[0] ]
-V_39.length = [ units[1] ]
-V_39.amount = [ units[2] ]
-V_39.mass = [ units[3] ]
-V_39.temperature = [ units[4] ]
-V_39.current = [ units[5] ]
-V_39.light = [ units[6] ]
-
-# 40
-label = variables[40]["label"]
-network = variables[40]["network"]
-variable_type = variables[40]["type"]
-label = variables[40]["label"]
-doc = variables[40]["doc"]
-onto_ID = "V_40"
-V_40 = onto.ProMoVar( onto_ID )
-V_40.label = label
-V_40.network = network
-V_40.variable_type = variable_type
-V_40.comment = doc
-
-units = variables[40]["units"].asList()
-V_40.time = [ units[0] ]
-V_40.length = [ units[1] ]
-V_40.amount = [ units[2] ]
-V_40.mass = [ units[3] ]
-V_40.temperature = [ units[4] ]
-V_40.current = [ units[5] ]
-V_40.light = [ units[6] ]
-
-# 41
-label = variables[41]["label"]
-network = variables[41]["network"]
-variable_type = variables[41]["type"]
-label = variables[41]["label"]
-doc = variables[41]["doc"]
-onto_ID = "V_41"
-V_41 = onto.ProMoVar( onto_ID )
-V_41.label = label
-V_41.network = network
-V_41.variable_type = variable_type
-V_41.comment = doc
-
-units = variables[41]["units"].asList()
-V_41.time = [ units[0] ]
-V_41.length = [ units[1] ]
-V_41.amount = [ units[2] ]
-V_41.mass = [ units[3] ]
-V_41.temperature = [ units[4] ]
-V_41.current = [ units[5] ]
-V_41.light = [ units[6] ]
-
 # functions assignments
 
 #1
 
 V_1.has_function = []
-#2
-
-V_2.has_function = []
 #3
 
 V_3.has_function = []
-incidence_list = []
-incidence_list.append( V_1 )
-incidence_list.append( V_2 )
-F_ID = "F_1"
-F_1 = onto.function( F_ID )
-F_1.is_function_of = incidence_list
-V_3.has_function.append( F_1 )
 #4
 
 V_4.has_function = []
 incidence_list = []
-incidence_list.append( V_1 )
-incidence_list.append( V_2 )
-F_ID = "F_2"
-F_2 = onto.function( F_ID )
-F_2.is_function_of = incidence_list
-V_4.has_function.append( F_2 )
+incidence_list.append( V_3 )
+incidence_list.append( V_3 )
+F_ID = "F_1"
+F_1 = onto.function( F_ID )
+F_1.is_function_of = incidence_list
+V_4.has_function.append( F_1 )
 #5
 
 V_5.has_function = []
 incidence_list = []
-incidence_list.append( V_16 )
+incidence_list.append( V_3 )
+incidence_list.append( V_3 )
+F_ID = "F_2"
+F_2 = onto.function( F_ID )
+F_2.is_function_of = incidence_list
+V_5.has_function.append( F_2 )
+#6
+
+V_6.has_function = []
+incidence_list = []
 incidence_list.append( V_1 )
 incidence_list.append( V_3 )
-incidence_list.append( V_4 )
-incidence_list.append( V_17 )
-F_ID = "F_62"
-F_62 = onto.function( F_ID )
-F_62.is_function_of = incidence_list
-V_5.has_function.append( F_62 )
+F_ID = "F_3"
+F_3 = onto.function( F_ID )
+F_3.is_function_of = incidence_list
+V_6.has_function.append( F_3 )
 #7
 
 V_7.has_function = []
 incidence_list = []
 incidence_list.append( V_1 )
-incidence_list.append( V_2 )
-F_ID = "F_40"
-F_40 = onto.function( F_ID )
-F_40.is_function_of = incidence_list
-V_7.has_function.append( F_40 )
+incidence_list.append( V_3 )
+F_ID = "F_4"
+F_4 = onto.function( F_ID )
+F_4.is_function_of = incidence_list
+V_7.has_function.append( F_4 )
 #8
 
 V_8.has_function = []
-incidence_list = []
-incidence_list.append( V_1 )
-incidence_list.append( V_2 )
-F_ID = "F_41"
-F_41 = onto.function( F_ID )
-F_41.is_function_of = incidence_list
-V_8.has_function.append( F_41 )
 #9
 
 V_9.has_function = []
 incidence_list = []
-incidence_list.append( V_2 )
-incidence_list.append( V_2 )
-F_ID = "F_42"
-F_42 = onto.function( F_ID )
-F_42.is_function_of = incidence_list
-V_9.has_function.append( F_42 )
+incidence_list.append( V_29 )
+incidence_list.append( V_1 )
+incidence_list.append( V_6 )
+incidence_list.append( V_7 )
+incidence_list.append( V_11 )
+F_ID = "F_20"
+F_20 = onto.function( F_ID )
+F_20.is_function_of = incidence_list
+V_9.has_function.append( F_20 )
 #10
 
 V_10.has_function = []
 incidence_list = []
-incidence_list.append( V_2 )
-incidence_list.append( V_2 )
-F_ID = "F_43"
-F_43 = onto.function( F_ID )
-F_43.is_function_of = incidence_list
-V_10.has_function.append( F_43 )
+incidence_list.append( V_30 )
+incidence_list.append( V_1 )
+incidence_list.append( V_6 )
+incidence_list.append( V_7 )
+incidence_list.append( V_12 )
+F_ID = "F_21"
+F_21 = onto.function( F_ID )
+F_21.is_function_of = incidence_list
+V_10.has_function.append( F_21 )
 #11
 
 V_11.has_function = []
 incidence_list = []
 incidence_list.append( V_9 )
-incidence_list.append( V_5 )
-F_ID = "F_7"
-F_7 = onto.function( F_ID )
-F_7.is_function_of = incidence_list
-V_11.has_function.append( F_7 )
-incidence_list = []
-incidence_list.append( V_11 )
-incidence_list.append( V_2 )
-F_ID = "F_14"
-F_14 = onto.function( F_ID )
-F_14.is_function_of = incidence_list
-V_11.has_function.append( F_14 )
+incidence_list.append( V_3 )
+F_ID = "F_5"
+F_5 = onto.function( F_ID )
+F_5.is_function_of = incidence_list
+V_11.has_function.append( F_5 )
 #12
 
 V_12.has_function = []
 incidence_list = []
 incidence_list.append( V_10 )
-incidence_list.append( V_5 )
-F_ID = "F_8"
-F_8 = onto.function( F_ID )
-F_8.is_function_of = incidence_list
-V_12.has_function.append( F_8 )
-incidence_list = []
-incidence_list.append( V_12 )
-incidence_list.append( V_2 )
-F_ID = "F_15"
-F_15 = onto.function( F_ID )
-F_15.is_function_of = incidence_list
-V_12.has_function.append( F_15 )
+incidence_list.append( V_3 )
+F_ID = "F_6"
+F_6 = onto.function( F_ID )
+F_6.is_function_of = incidence_list
+V_12.has_function.append( F_6 )
 #13
 
 V_13.has_function = []
+#14
+
+V_14.has_function = []
+#15
+
+V_15.has_function = []
 #16
 
 V_16.has_function = []
-incidence_list = []
-incidence_list.append( V_16 )
-incidence_list.append( V_18 )
-F_ID = "F_18"
-F_18 = onto.function( F_ID )
-F_18.is_function_of = incidence_list
-V_16.has_function.append( F_18 )
-incidence_list = []
-incidence_list.append( V_37 )
-incidence_list.append( V_38 )
-F_ID = "F_58"
-F_58 = onto.function( F_ID )
-F_58.is_function_of = incidence_list
-V_16.has_function.append( F_58 )
 #17
 
 V_17.has_function = []
-incidence_list = []
-incidence_list.append( V_5 )
-incidence_list.append( V_2 )
-F_ID = "F_12"
-F_12 = onto.function( F_ID )
-F_12.is_function_of = incidence_list
-V_17.has_function.append( F_12 )
 #18
 
 V_18.has_function = []
-incidence_list = []
-incidence_list.append( V_2 )
-incidence_list.append( V_2 )
-F_ID = "F_16"
-F_16 = onto.function( F_ID )
-F_16.is_function_of = incidence_list
-V_18.has_function.append( F_16 )
 #19
 
 V_19.has_function = []
-incidence_list = []
-incidence_list.append( V_2 )
-incidence_list.append( V_2 )
-F_ID = "F_17"
-F_17 = onto.function( F_ID )
-F_17.is_function_of = incidence_list
-V_19.has_function.append( F_17 )
 #20
 
 V_20.has_function = []
-incidence_list = []
-incidence_list.append( V_11 )
-incidence_list.append( V_12 )
-F_ID = "F_19"
-F_19 = onto.function( F_ID )
-F_19.is_function_of = incidence_list
-V_20.has_function.append( F_19 )
 #21
 
 V_21.has_function = []
 incidence_list = []
-incidence_list.append( V_26 )
-incidence_list.append( V_1 )
-incidence_list.append( V_3 )
-incidence_list.append( V_4 )
-incidence_list.append( V_27 )
-F_ID = "F_63"
-F_63 = onto.function( F_ID )
-F_63.is_function_of = incidence_list
-V_21.has_function.append( F_63 )
+incidence_list.append( V_17 )
+incidence_list.append( V_9 )
+F_ID = "F_7"
+F_7 = onto.function( F_ID )
+F_7.is_function_of = incidence_list
+V_21.has_function.append( F_7 )
 #22
 
 V_22.has_function = []
+incidence_list = []
+incidence_list.append( V_18 )
+incidence_list.append( V_9 )
+F_ID = "F_8"
+F_8 = onto.function( F_ID )
+F_8.is_function_of = incidence_list
+V_22.has_function.append( F_8 )
 #23
 
 V_23.has_function = []
 incidence_list = []
-incidence_list.append( V_1 )
-incidence_list.append( V_2 )
-F_ID = "F_22"
-F_22 = onto.function( F_ID )
-F_22.is_function_of = incidence_list
-V_23.has_function.append( F_22 )
+incidence_list.append( V_19 )
+incidence_list.append( V_10 )
+F_ID = "F_9"
+F_9 = onto.function( F_ID )
+F_9.is_function_of = incidence_list
+V_23.has_function.append( F_9 )
 #24
 
 V_24.has_function = []
 incidence_list = []
-incidence_list.append( V_22 )
+incidence_list.append( V_20 )
+incidence_list.append( V_10 )
+F_ID = "F_10"
+F_10 = onto.function( F_ID )
+F_10.is_function_of = incidence_list
+V_24.has_function.append( F_10 )
+#25
+
+V_25.has_function = []
+incidence_list = []
+incidence_list.append( V_8 )
+incidence_list.append( V_13 )
+incidence_list.append( V_8 )
 incidence_list.append( V_21 )
-F_ID = "F_23"
-F_23 = onto.function( F_ID )
-F_23.is_function_of = incidence_list
-V_24.has_function.append( F_23 )
+F_ID = "F_11"
+F_11 = onto.function( F_ID )
+F_11.is_function_of = incidence_list
+V_25.has_function.append( F_11 )
 #26
 
 V_26.has_function = []
 incidence_list = []
-incidence_list.append( V_26 )
-incidence_list.append( V_2 )
-F_ID = "F_36"
-F_36 = onto.function( F_ID )
-F_36.is_function_of = incidence_list
-V_26.has_function.append( F_36 )
-incidence_list = []
-incidence_list.append( V_39 )
-incidence_list.append( V_40 )
-F_ID = "F_59"
-F_59 = onto.function( F_ID )
-F_59.is_function_of = incidence_list
-V_26.has_function.append( F_59 )
+incidence_list.append( V_8 )
+incidence_list.append( V_14 )
+incidence_list.append( V_8 )
+incidence_list.append( V_22 )
+F_ID = "F_12"
+F_12 = onto.function( F_ID )
+F_12.is_function_of = incidence_list
+V_26.has_function.append( F_12 )
 #27
 
 V_27.has_function = []
 incidence_list = []
-incidence_list.append( V_21 )
-incidence_list.append( V_2 )
-F_ID = "F_26"
-F_26 = onto.function( F_ID )
-F_26.is_function_of = incidence_list
-V_27.has_function.append( F_26 )
+incidence_list.append( V_8 )
+incidence_list.append( V_15 )
+incidence_list.append( V_8 )
+incidence_list.append( V_23 )
+F_ID = "F_14"
+F_14 = onto.function( F_ID )
+F_14.is_function_of = incidence_list
+V_27.has_function.append( F_14 )
+#28
+
+V_28.has_function = []
+incidence_list = []
+incidence_list.append( V_8 )
+incidence_list.append( V_16 )
+incidence_list.append( V_8 )
+incidence_list.append( V_24 )
+F_ID = "F_15"
+F_15 = onto.function( F_ID )
+F_15.is_function_of = incidence_list
+V_28.has_function.append( F_15 )
+#29
+
+V_29.has_function = []
+incidence_list = []
+incidence_list.append( V_25 )
+incidence_list.append( V_26 )
+F_ID = "F_16"
+F_16 = onto.function( F_ID )
+F_16.is_function_of = incidence_list
+V_29.has_function.append( F_16 )
 #30
 
 V_30.has_function = []
 incidence_list = []
-incidence_list.append( V_1 )
-incidence_list.append( V_2 )
-F_ID = "F_30"
-F_30 = onto.function( F_ID )
-F_30.is_function_of = incidence_list
-V_30.has_function.append( F_30 )
-#31
-
-V_31.has_function = []
-#33
-
-V_33.has_function = []
-incidence_list = []
-incidence_list.append( V_31 )
-incidence_list.append( V_21 )
-F_ID = "F_32"
-F_32 = onto.function( F_ID )
-F_32.is_function_of = incidence_list
-V_33.has_function.append( F_32 )
-#36
-
-V_36.has_function = []
-incidence_list = []
-incidence_list.append( V_24 )
-incidence_list.append( V_33 )
-F_ID = "F_44"
-F_44 = onto.function( F_ID )
-F_44.is_function_of = incidence_list
-V_36.has_function.append( F_44 )
-#37
-
-V_37.has_function = []
-incidence_list = []
-incidence_list.append( V_13 )
-incidence_list.append( V_7 )
-incidence_list.append( V_13 )
-incidence_list.append( V_11 )
-F_ID = "F_50"
-F_50 = onto.function( F_ID )
-F_50.is_function_of = incidence_list
-V_37.has_function.append( F_50 )
-incidence_list = []
-incidence_list.append( V_37 )
-incidence_list.append( V_2 )
-F_ID = "F_55"
-F_55 = onto.function( F_ID )
-F_55.is_function_of = incidence_list
-V_37.has_function.append( F_55 )
-#38
-
-V_38.has_function = []
-incidence_list = []
-incidence_list.append( V_13 )
-incidence_list.append( V_8 )
-incidence_list.append( V_13 )
-incidence_list.append( V_12 )
-F_ID = "F_51"
-F_51 = onto.function( F_ID )
-F_51.is_function_of = incidence_list
-V_38.has_function.append( F_51 )
-incidence_list = []
-incidence_list.append( V_37 )
-incidence_list.append( V_2 )
-F_ID = "F_66"
-F_66 = onto.function( F_ID )
-F_66.is_function_of = incidence_list
-V_38.has_function.append( F_66 )
-#39
-
-V_39.has_function = []
-incidence_list = []
-incidence_list.append( V_13 )
-incidence_list.append( V_23 )
-incidence_list.append( V_13 )
-incidence_list.append( V_24 )
-F_ID = "F_52"
-F_52 = onto.function( F_ID )
-F_52.is_function_of = incidence_list
-V_39.has_function.append( F_52 )
-incidence_list = []
-incidence_list.append( V_39 )
-incidence_list.append( V_2 )
-F_ID = "F_57"
-F_57 = onto.function( F_ID )
-F_57.is_function_of = incidence_list
-V_39.has_function.append( F_57 )
-#40
-
-V_40.has_function = []
-incidence_list = []
-incidence_list.append( V_13 )
-incidence_list.append( V_30 )
-incidence_list.append( V_13 )
-incidence_list.append( V_33 )
-F_ID = "F_53"
-F_53 = onto.function( F_ID )
-F_53.is_function_of = incidence_list
-V_40.has_function.append( F_53 )
-incidence_list = []
-incidence_list.append( V_40 )
-incidence_list.append( V_2 )
-F_ID = "F_54"
-F_54 = onto.function( F_ID )
-F_54.is_function_of = incidence_list
-V_40.has_function.append( F_54 )
-#41
-
-V_41.has_function = []
-incidence_list = []
-incidence_list.append( V_5 )
-incidence_list.append( V_21 )
-F_ID = "F_64"
-F_64 = onto.function( F_ID )
-F_64.is_function_of = incidence_list
-V_41.has_function.append( F_64 )
+incidence_list.append( V_27 )
+incidence_list.append( V_28 )
+F_ID = "F_17"
+F_17 = onto.function( F_ID )
+F_17.is_function_of = incidence_list
+V_30.has_function.append( F_17 )
 
 onto.save("variables.owl")

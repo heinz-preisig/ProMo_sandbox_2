@@ -92,7 +92,9 @@
         "node": [
           "frame",
           "state",
-          "constant"
+          "constant",
+          "secondaryState",
+          "differentialState"
         ]
       },
       "children": [],
