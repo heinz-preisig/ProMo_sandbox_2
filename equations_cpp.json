@@ -83,29 +83,11 @@
     "network": "System",
     "rhs": "np.ones(np.shape(y)), value"
   },
-  "28": {
-    "variable_ID": 28,
-    "lhs": "fx_A_alpha",
-    "network": "System",
-    "rhs": "np.dot(np.transpose(ganger(K_A_alpha, F)), pi_A_alpha)"
-  },
-  "29": {
-    "variable_ID": 29,
-    "lhs": "fx_A_beta",
-    "network": "System",
-    "rhs": "np.dot(np.transpose(ganger(K_A_beta, F)), pi_A_beta)"
-  },
   "30": {
     "variable_ID": 30,
     "lhs": "K_B_delta",
     "network": "System",
     "rhs": "np.ones(np.shape(np.reciprocal(t))), value"
-  },
-  "31": {
-    "variable_ID": 32,
-    "lhs": "fy_B_gamma",
-    "network": "System",
-    "rhs": "np.dot(np.transpose(ganger(K_B_gamma, F)), pi_B_gamma)"
   },
   "32": {
     "variable_ID": 33,
@@ -113,41 +95,11 @@
     "network": "System",
     "rhs": "ganger(M_B_delta, y)"
   },
-  "34": {
-    "variable_ID": 35,
-    "lhs": "fy_B_delta",
-    "network": "System",
-    "rhs": "np.dot(np.transpose(ganger(K_B_delta, F)), pi_B_delta)"
-  },
-  "35": {
-    "variable_ID": 26,
-    "lhs": "dy",
-    "network": "System",
-    "rhs": "np.add(np.dot(F, fy_B_gamma), np.dot(F, fy_B_delta))"
-  },
   "36": {
     "variable_ID": 26,
     "lhs": "dy",
     "network": "System",
     "rhs": "np.ones(np.shape(dy)), value"
-  },
-  "37": {
-    "variable_ID": 16,
-    "lhs": "dx",
-    "network": "System",
-    "rhs": "np.add(np.dot(F, fx_A_alpha), np.dot(F, fx_A_beta))"
-  },
-  "38": {
-    "variable_ID": 5,
-    "lhs": "x",
-    "network": "System",
-    "rhs": "integral(dx,t,to,te)"
-  },
-  "39": {
-    "variable_ID": 21,
-    "lhs": "y",
-    "network": "System",
-    "rhs": "integral(dy,t,to,te)"
   },
   "40": {
     "variable_ID": 7,
@@ -179,34 +131,82 @@
     "network": "System",
     "rhs": "Stack(pi_B_gamma,pi_B_delta)"
   },
-  "45": {
-    "variable_ID": 32,
+  "50": {
+    "variable_ID": 37,
+    "lhs": "fx_A_alpha",
+    "network": "System",
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(K_A_alpha, F)), pi_A_alpha)))"
+  },
+  "51": {
+    "variable_ID": 38,
+    "lhs": "fx_A_beta",
+    "network": "System",
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(K_A_beta, F)), pi_A_beta)))"
+  },
+  "52": {
+    "variable_ID": 39,
     "lhs": "fy_B_gamma",
     "network": "System",
-    "rhs": "np.ones(np.shape(fy_B_gamma)), value"
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(K_B_gamma, F)), pi_B_gamma)))"
   },
-  "46": {
-    "variable_ID": 35,
+  "53": {
+    "variable_ID": 40,
+    "lhs": "fy_B_delta",
+    "network": "System",
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(K_B_delta, F)), pi_B_delta)))"
+  },
+  "54": {
+    "variable_ID": 40,
     "lhs": "fy_B_delta",
     "network": "System",
     "rhs": "np.ones(np.shape(fy_B_delta)), value"
   },
-  "47": {
-    "variable_ID": 28,
+  "55": {
+    "variable_ID": 37,
     "lhs": "fx_A_alpha",
     "network": "System",
     "rhs": "np.ones(np.shape(fx_A_alpha)), value"
   },
-  "48": {
-    "variable_ID": 29,
-    "lhs": "fx_A_beta",
+  "57": {
+    "variable_ID": 39,
+    "lhs": "fy_B_gamma",
     "network": "System",
-    "rhs": "np.ones(np.shape(fx_A_beta)), value"
+    "rhs": "np.ones(np.shape(fy_B_gamma)), value"
   },
-  "49": {
-    "variable_ID": 29,
+  "58": {
+    "variable_ID": 16,
+    "lhs": "dx",
+    "network": "System",
+    "rhs": "np.add(fx_A_alpha, fx_A_beta)"
+  },
+  "59": {
+    "variable_ID": 26,
+    "lhs": "dy",
+    "network": "System",
+    "rhs": "np.add(fy_B_gamma, fy_B_delta)"
+  },
+  "62": {
+    "variable_ID": 5,
+    "lhs": "x",
+    "network": "System",
+    "rhs": "np.add(integral(dx,t,to,te), xo)"
+  },
+  "63": {
+    "variable_ID": 21,
+    "lhs": "y",
+    "network": "System",
+    "rhs": "np.add(integral(dy,t,to,te), yo)"
+  },
+  "64": {
+    "variable_ID": 41,
+    "lhs": "xy_stack",
+    "network": "System",
+    "rhs": "MixedStack(x,y)"
+  },
+  "66": {
+    "variable_ID": 38,
     "lhs": "fx_A_beta",
     "network": "System",
-    "rhs": "np.dot(np.transpose(ganger(K_A_beta, F)), pi_A_beta)"
+    "rhs": "np.ones(np.shape(fx_A_alpha)), value"
   }
 }

@@ -63,7 +63,7 @@
     "variable_ID": 20,
     "lhs": "{{\\V{\\pi}^{A}}}{_{N}}",
     "network": "System",
-    "rhs": "Stack\\left( {{\\pi^{A,\\alpha}}}{_{N}},{{\\pi^{A,\\beta}}}{_{N}} \\right)"
+    "rhs": "\\text{Stack}\\left( {{\\pi^{A,\\alpha}}}{_{N}},{{\\pi^{A,\\beta}}}{_{N}} \\right)"
   },
   "22": {
     "variable_ID": 23,
@@ -83,29 +83,11 @@
     "network": "System",
     "rhs": "\\text{Instantiate}({y}{_{N}}, {{\\#}}{_{}})"
   },
-  "28": {
-    "variable_ID": 28,
-    "lhs": "{{\\hat{x}^{A,\\alpha}}}{_{A}}",
-    "network": "System",
-    "rhs": "{{K^{A,\\alpha}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\alpha}}}{_{N}}"
-  },
-  "29": {
-    "variable_ID": 29,
-    "lhs": "{{\\hat{x}^{A,\\beta}}}{_{A}}",
-    "network": "System",
-    "rhs": "{{K^{A,\\beta}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\beta}}}{_{N}}"
-  },
   "30": {
     "variable_ID": 30,
     "lhs": "{{K^{B,\\delta}}}{_{N}}",
     "network": "System",
     "rhs": "\\text{Instantiate}(\\left( {t}{_{N}} \\right)^{-1}, {{\\#}}{_{}})"
-  },
-  "31": {
-    "variable_ID": 32,
-    "lhs": "{{\\hat{y}^{B,\\gamma}}}{_{A}}",
-    "network": "System",
-    "rhs": "{{K^{B,\\gamma}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\gamma}}}{_{N}}"
   },
   "32": {
     "variable_ID": 33,
@@ -113,41 +95,11 @@
     "network": "System",
     "rhs": "{{M^{B,\\delta}}}{_{}} \\, . \\, {y}{_{N}}"
   },
-  "34": {
-    "variable_ID": 35,
-    "lhs": "{{\\hat{y}^{B,\\delta}}}{_{A}}",
-    "network": "System",
-    "rhs": "{{K^{B,\\delta}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\delta}}}{_{N}}"
-  },
-  "35": {
-    "variable_ID": 26,
-    "lhs": "{{\\dot{y}}}{_{N}}",
-    "network": "System",
-    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} {{\\hat{y}^{B,\\gamma}}}{_{A}}  + {F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} {{\\hat{y}^{B,\\delta}}}{_{A}}"
-  },
   "36": {
     "variable_ID": 26,
     "lhs": "{{\\dot{y}}}{_{N}}",
     "network": "System",
     "rhs": "\\text{Instantiate}({{\\dot{y}}}{_{N}}, {{\\#}}{_{}})"
-  },
-  "37": {
-    "variable_ID": 16,
-    "lhs": "{{\\dot{x}}}{_{N}}",
-    "network": "System",
-    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} {{\\hat{x}^{A,\\alpha}}}{_{A}}  + {F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} {{\\hat{x}^{A,\\beta}}}{_{A}}"
-  },
-  "38": {
-    "variable_ID": 5,
-    "lhs": "{x}{_{N}}",
-    "network": "System",
-    "rhs": "\\int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{N}}"
-  },
-  "39": {
-    "variable_ID": 21,
-    "lhs": "{y}{_{N}}",
-    "network": "System",
-    "rhs": "\\int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{N}}"
   },
   "40": {
     "variable_ID": 7,
@@ -177,36 +129,84 @@
     "variable_ID": 36,
     "lhs": "{{\\V{\\pi}^{B}}}{_{N}}",
     "network": "System",
-    "rhs": "Stack\\left( {{\\pi^{B,\\gamma}}}{_{N}},{{\\pi^{B,\\delta}}}{_{N}} \\right)"
+    "rhs": "\\text{Stack}\\left( {{\\pi^{B,\\gamma}}}{_{N}},{{\\pi^{B,\\delta}}}{_{N}} \\right)"
   },
-  "45": {
-    "variable_ID": 32,
-    "lhs": "{{\\hat{y}^{B,\\gamma}}}{_{A}}",
+  "50": {
+    "variable_ID": 37,
+    "lhs": "{{\\hat{x}^{A, \\alpha}}}{_{N}}",
     "network": "System",
-    "rhs": "\\text{Instantiate}({{\\hat{y}^{B,\\gamma}}}{_{A}}, {{\\#}}{_{}})"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{A,\\alpha}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\alpha}}}{_{N}}\\right)"
   },
-  "46": {
-    "variable_ID": 35,
-    "lhs": "{{\\hat{y}^{B,\\delta}}}{_{A}}",
+  "51": {
+    "variable_ID": 38,
+    "lhs": "{{\\hat{x}^{A, \\beta}}}{_{N}}",
     "network": "System",
-    "rhs": "\\text{Instantiate}({{\\hat{y}^{B,\\delta}}}{_{A}}, {{\\#}}{_{}})"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{A,\\beta}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\beta}}}{_{N}}\\right)"
   },
-  "47": {
-    "variable_ID": 28,
-    "lhs": "{{\\hat{x}^{A,\\alpha}}}{_{A}}",
+  "52": {
+    "variable_ID": 39,
+    "lhs": "{{\\hat{y}^{B, \\gamma}}}{_{N}}",
     "network": "System",
-    "rhs": "\\text{Instantiate}({{\\hat{x}^{A,\\alpha}}}{_{A}}, {{\\#}}{_{}})"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\gamma}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\gamma}}}{_{N}}\\right)"
   },
-  "48": {
-    "variable_ID": 29,
-    "lhs": "{{\\hat{x}^{A,\\beta}}}{_{A}}",
+  "53": {
+    "variable_ID": 40,
+    "lhs": "{{\\hat{y}^{B, \\delta}}}{_{N}}",
     "network": "System",
-    "rhs": "\\text{Instantiate}({{\\hat{x}^{A,\\beta}}}{_{A}}, {{\\#}}{_{}})"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\delta}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\delta}}}{_{N}}\\right)"
   },
-  "49": {
-    "variable_ID": 29,
-    "lhs": "{{\\hat{x}^{A,\\beta}}}{_{A}}",
+  "54": {
+    "variable_ID": 40,
+    "lhs": "{{\\hat{y}^{B, \\delta}}}{_{N}}",
     "network": "System",
-    "rhs": "{{K^{A,\\beta}}}{_{N}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\beta}}}{_{N}}"
+    "rhs": "\\text{Instantiate}({{\\hat{y}^{B, \\delta}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "55": {
+    "variable_ID": 37,
+    "lhs": "{{\\hat{x}^{A, \\alpha}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\hat{x}^{A, \\alpha}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "57": {
+    "variable_ID": 39,
+    "lhs": "{{\\hat{y}^{B, \\gamma}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\hat{y}^{B, \\gamma}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "58": {
+    "variable_ID": 16,
+    "lhs": "{{\\dot{x}}}{_{N}}",
+    "network": "System",
+    "rhs": "{{\\hat{x}^{A, \\alpha}}}{_{N}}  + {{\\hat{x}^{A, \\beta}}}{_{N}}"
+  },
+  "59": {
+    "variable_ID": 26,
+    "lhs": "{{\\dot{y}}}{_{N}}",
+    "network": "System",
+    "rhs": "{{\\hat{y}^{B, \\gamma}}}{_{N}}  + {{\\hat{y}^{B, \\delta}}}{_{N}}"
+  },
+  "62": {
+    "variable_ID": 5,
+    "lhs": "{x}{_{N}}",
+    "network": "System",
+    "rhs": "\\int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{x^o}}{_{N}}"
+  },
+  "63": {
+    "variable_ID": 21,
+    "lhs": "{y}{_{N}}",
+    "network": "System",
+    "rhs": "\\int_{ {{t^o}}{_{N}} }^{ {{t^e}}{_{N}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{y^{o}}}{_{N}}"
+  },
+  "64": {
+    "variable_ID": 41,
+    "lhs": "{xy_stack}{_{}}",
+    "network": "System",
+    "rhs": "\\text{MixedStack}\\left( {x}{_{N}},{y}{_{N}} \\right)"
+  },
+  "66": {
+    "variable_ID": 38,
+    "lhs": "{{\\hat{x}^{A, \\beta}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\hat{x}^{A, \\alpha}}}{_{N}}, {{\\#}}{_{}})"
   }
 }
