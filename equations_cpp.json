@@ -154,5 +154,17 @@
     "lhs": "s",
     "network": "System",
     "rhs": "MixedStack(x,y)"
+  },
+  "32": {
+    "variable_ID": 29,
+    "lhs": "dx",
+    "network": "System",
+    "rhs": "np.ones(np.shape(dx)), null"
+  },
+  "33": {
+    "variable_ID": 30,
+    "lhs": "dy",
+    "network": "System",
+    "rhs": "np.ones(np.shape(dy)), null"
   }
 }

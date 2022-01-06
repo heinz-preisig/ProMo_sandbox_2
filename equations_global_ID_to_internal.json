@@ -128,5 +128,15 @@
     "lhs": "s",
     "network": "System",
     "rhs": " MixedStack ( x , y )"
+  },
+  "32": {
+    "lhs": "dx",
+    "network": "System",
+    "rhs": " Instantiate ( dx , null )"
+  },
+  "33": {
+    "lhs": "dy",
+    "network": "System",
+    "rhs": " Instantiate ( dy , null )"
   }
 }

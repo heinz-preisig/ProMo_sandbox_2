@@ -154,5 +154,17 @@
     "lhs": " V_34",
     "network": "System",
     "rhs": " F_19 D_0 V_9 D_7 V_10 D_1"
+  },
+  "32": {
+    "variable_ID": 29,
+    "lhs": " V_29",
+    "network": "System",
+    "rhs": " O_11 D_0 V_29 D_7 V_5 D_1"
+  },
+  "33": {
+    "variable_ID": 30,
+    "lhs": " V_30",
+    "network": "System",
+    "rhs": " O_11 D_0 V_30 D_7 V_5 D_1"
   }
 }

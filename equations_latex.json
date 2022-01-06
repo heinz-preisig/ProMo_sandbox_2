@@ -154,5 +154,17 @@
     "lhs": "{s}{_{}}",
     "network": "System",
     "rhs": "\\text{MixedStack}\\left( {x}{_{N}},{y}{_{N}} \\right)"
+  },
+  "32": {
+    "variable_ID": 29,
+    "lhs": "{{\\dot{x}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\dot{x}}}{_{N}}, {0}{_{}})"
+  },
+  "33": {
+    "variable_ID": 30,
+    "lhs": "{{\\dot{y}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\dot{y}}}{_{N}}, {0}{_{}})"
   }
 }

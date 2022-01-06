@@ -328,7 +328,7 @@
     "29": {
       "aliases": "{'global_ID': ' V_29', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': '{\\\\dot{x}}', 'internal_code': 'dx'}",
       "doc": "diferential balance for token A",
-      "equations": "{16: {'rhs': ' V_25 O_0 V_26', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['25', '26']}, 32: {'rhs': ' O_11 D_0 V_29 D_7 V_5 D_1', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['29', '5']}}",
+      "equations": "{16: {'rhs': ' V_25 O_0 V_26', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['25', '26']}, 32: {'rhs': ' O_11 D_0 V_29 D_7 V_3 D_1', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['29', '3']}}",
       "index_structures": "[1]",
       "label": "dx",
       "network": "System",

@@ -1049,6 +1049,13 @@ F_ID = "F_16"
 F_16 = onto.function( F_ID )
 F_16.is_function_of = incidence_list
 V_29.has_function.append( F_16 )
+incidence_list = []
+incidence_list.append( V_29 )
+incidence_list.append( V_5 )
+F_ID = "F_32"
+F_32 = onto.function( F_ID )
+F_32.is_function_of = incidence_list
+V_29.has_function.append( F_32 )
 #30
 
 V_30.has_function = []
@@ -1059,6 +1066,13 @@ F_ID = "F_17"
 F_17 = onto.function( F_ID )
 F_17.is_function_of = incidence_list
 V_30.has_function.append( F_17 )
+incidence_list = []
+incidence_list.append( V_30 )
+incidence_list.append( V_5 )
+F_ID = "F_33"
+F_33 = onto.function( F_ID )
+F_33.is_function_of = incidence_list
+V_30.has_function.append( F_33 )
 #31
 
 V_31.has_function = []

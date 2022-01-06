@@ -24,3 +24,5 @@
 29 :: pi_B_gamma =  Instantiate ( pi_B_gamma , value )
 30 :: pi_B_delta =  Instantiate ( pi_B_delta , value )
 31 :: s =  MixedStack ( x , y )
+32 :: dx =  Instantiate ( dx , null )
+33 :: dy =  Instantiate ( dy , null )

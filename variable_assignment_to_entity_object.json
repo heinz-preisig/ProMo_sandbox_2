@@ -1,0 +1,5037 @@
+{
+  "behaviours": {
+    "System.node.constant|lumped|tokenB.base": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4,
+            7
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            9,
+            11
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5,
+            6
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "6": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "7": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            8
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "9": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            10
+          ]
+        },
+        "10": {
+          "ancestors": [
+            9,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "11": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "12": {
+          "ancestors": [
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        "13": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "15": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            19
+          ]
+        },
+        "16": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            22
+          ]
+        },
+        "17": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            23
+          ]
+        },
+        "18": {
+          "ancestors": [
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "19": {
+          "ancestors": [
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            20,
+            21
+          ]
+        },
+        "20": {
+          "ancestors": [
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            24
+          ]
+        },
+        "21": {
+          "ancestors": [
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            27
+          ]
+        },
+        "22": {
+          "ancestors": [
+            16,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "23": {
+          "ancestors": [
+            17,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "24": {
+          "ancestors": [
+            20,
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            25,
+            26
+          ]
+        },
+        "25": {
+          "ancestors": [
+            24,
+            20,
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "26": {
+          "ancestors": [
+            24,
+            20,
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "27": {
+          "ancestors": [
+            21,
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            28
+          ]
+        },
+        "28": {
+          "ancestors": [
+            27,
+            21,
+            19,
+            15,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_32",
+        "1": "equation_25",
+        "2": "variable_23",
+        "3": "variable_24",
+        "4": "equation_9",
+        "5": "variable_10",
+        "6": "variable_19",
+        "7": "equation_29",
+        "8": "variable_3",
+        "9": "equation_10",
+        "10": "variable_20",
+        "11": "equation_30",
+        "12": "equation_21",
+        "13": "variable_1",
+        "14": "variable_12",
+        "15": "variable_30",
+        "16": "variable_6",
+        "17": "variable_7",
+        "18": "equation_6",
+        "19": "equation_17",
+        "20": "variable_27",
+        "21": "variable_28",
+        "22": "equation_3",
+        "23": "equation_4",
+        "24": "equation_14",
+        "25": "variable_15",
+        "26": "variable_8",
+        "27": "equation_15",
+        "28": "variable_16"
+      },
+      "IDs": {
+        "variable_32": 0,
+        "equation_25": 1,
+        "variable_23": 2,
+        "variable_24": 3,
+        "equation_9": 4,
+        "variable_10": 5,
+        "variable_19": 6,
+        "equation_29": 7,
+        "variable_3": 8,
+        "equation_10": 9,
+        "variable_20": 10,
+        "equation_30": 11,
+        "equation_21": 12,
+        "variable_1": 13,
+        "variable_12": 14,
+        "variable_30": 15,
+        "variable_6": 16,
+        "variable_7": 17,
+        "equation_6": 18,
+        "equation_17": 19,
+        "variable_27": 20,
+        "variable_28": 21,
+        "equation_3": 22,
+        "equation_4": 23,
+        "equation_14": 24,
+        "variable_15": 25,
+        "variable_8": 26,
+        "equation_15": 27,
+        "variable_16": 28
+      },
+      "root_variable": 32,
+      "blocked": [],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        12,
+        23,
+        24
+      ]
+    },
+    "System.node.dynamic|lumped|tokenA.base": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": []
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            7
+          ]
+        },
+        "4": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            9
+          ]
+        },
+        "5": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "6": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "7": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            8
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "9": {
+          "ancestors": [
+            4,
+            1,
+            0
+          ],
+          "children": [
+            10,
+            11
+          ]
+        },
+        "10": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "11": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "12": {
+          "ancestors": [
+            5,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "13": {
+          "ancestors": [
+            6,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            15,
+            16,
+            17
+          ]
+        },
+        "15": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "16": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            21,
+            22
+          ]
+        },
+        "17": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "18": {
+          "ancestors": [
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            19,
+            20
+          ]
+        },
+        "19": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "20": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            24,
+            26
+          ]
+        },
+        "21": {
+          "ancestors": [
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "22": {
+          "ancestors": [
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            23
+          ]
+        },
+        "23": {
+          "ancestors": [
+            22,
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "24": {
+          "ancestors": [
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            25
+          ]
+        },
+        "25": {
+          "ancestors": [
+            24,
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "26": {
+          "ancestors": [
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_9",
+        "1": "equation_20",
+        "2": "variable_1",
+        "3": "variable_11",
+        "4": "variable_29",
+        "5": "variable_6",
+        "6": "variable_7",
+        "7": "equation_5",
+        "8": "variable_3",
+        "9": "equation_16",
+        "10": "variable_25",
+        "11": "variable_26",
+        "12": "equation_3",
+        "13": "equation_4",
+        "14": "equation_11",
+        "15": "variable_13",
+        "16": "variable_21",
+        "17": "variable_8",
+        "18": "equation_12",
+        "19": "variable_14",
+        "20": "variable_22",
+        "21": "equation_27",
+        "22": "equation_7",
+        "23": "variable_17",
+        "24": "equation_8",
+        "25": "variable_18",
+        "26": "equation_28"
+      },
+      "IDs": {
+        "variable_9": 0,
+        "equation_20": 1,
+        "variable_1": 2,
+        "variable_11": 3,
+        "variable_29": 4,
+        "variable_6": 5,
+        "variable_7": 6,
+        "equation_5": 7,
+        "variable_3": 8,
+        "equation_16": 9,
+        "variable_25": 10,
+        "variable_26": 11,
+        "equation_3": 12,
+        "equation_4": 13,
+        "equation_11": 14,
+        "variable_13": 15,
+        "variable_21": 16,
+        "variable_8": 17,
+        "equation_12": 18,
+        "variable_14": 19,
+        "variable_22": 20,
+        "equation_27": 21,
+        "equation_7": 22,
+        "variable_17": 23,
+        "equation_8": 24,
+        "variable_18": 25,
+        "equation_28": 26
+      },
+      "root_variable": 9,
+      "blocked": [],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        11,
+        21,
+        22
+      ]
+    },
+    "System.node.dynamic|lumped|tokenB.base": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": []
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            7
+          ]
+        },
+        "4": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            9
+          ]
+        },
+        "5": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "6": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "7": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            8
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "9": {
+          "ancestors": [
+            4,
+            1,
+            0
+          ],
+          "children": [
+            10,
+            11
+          ]
+        },
+        "10": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "11": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "12": {
+          "ancestors": [
+            5,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "13": {
+          "ancestors": [
+            6,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            15,
+            16,
+            17
+          ]
+        },
+        "15": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "16": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            21,
+            23
+          ]
+        },
+        "17": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "18": {
+          "ancestors": [
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            19,
+            20
+          ]
+        },
+        "19": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "20": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            24,
+            26
+          ]
+        },
+        "21": {
+          "ancestors": [
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            22
+          ]
+        },
+        "22": {
+          "ancestors": [
+            21,
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "23": {
+          "ancestors": [
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "24": {
+          "ancestors": [
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            25
+          ]
+        },
+        "25": {
+          "ancestors": [
+            24,
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "26": {
+          "ancestors": [
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_10",
+        "1": "equation_21",
+        "2": "variable_1",
+        "3": "variable_12",
+        "4": "variable_30",
+        "5": "variable_6",
+        "6": "variable_7",
+        "7": "equation_6",
+        "8": "variable_3",
+        "9": "equation_17",
+        "10": "variable_27",
+        "11": "variable_28",
+        "12": "equation_3",
+        "13": "equation_4",
+        "14": "equation_14",
+        "15": "variable_15",
+        "16": "variable_23",
+        "17": "variable_8",
+        "18": "equation_15",
+        "19": "variable_16",
+        "20": "variable_24",
+        "21": "equation_9",
+        "22": "variable_19",
+        "23": "equation_29",
+        "24": "equation_10",
+        "25": "variable_20",
+        "26": "equation_30"
+      },
+      "IDs": {
+        "variable_10": 0,
+        "equation_21": 1,
+        "variable_1": 2,
+        "variable_12": 3,
+        "variable_30": 4,
+        "variable_6": 5,
+        "variable_7": 6,
+        "equation_6": 7,
+        "variable_3": 8,
+        "equation_17": 9,
+        "variable_27": 10,
+        "variable_28": 11,
+        "equation_3": 12,
+        "equation_4": 13,
+        "equation_14": 14,
+        "variable_15": 15,
+        "variable_23": 16,
+        "variable_8": 17,
+        "equation_15": 18,
+        "variable_16": 19,
+        "variable_24": 20,
+        "equation_9": 21,
+        "variable_19": 22,
+        "equation_29": 23,
+        "equation_10": 24,
+        "variable_20": 25,
+        "equation_30": 26
+      },
+      "root_variable": 10,
+      "blocked": [],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        12,
+        23,
+        24
+      ]
+    },
+    "System.node.dynamic|lumped|tokenA_tokenB.base": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            10
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "6": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "7": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            15
+          ]
+        },
+        "8": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "9": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            19
+          ]
+        },
+        "10": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            11,
+            12
+          ]
+        },
+        "11": {
+          "ancestors": [
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            20
+          ]
+        },
+        "12": {
+          "ancestors": [
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            21
+          ]
+        },
+        "13": {
+          "ancestors": [
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "14": {
+          "ancestors": [
+            13,
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "15": {
+          "ancestors": [
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            16,
+            17
+          ]
+        },
+        "16": {
+          "ancestors": [
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            24
+          ]
+        },
+        "17": {
+          "ancestors": [
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            28
+          ]
+        },
+        "18": {
+          "ancestors": [
+            8,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "19": {
+          "ancestors": [
+            9,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "20": {
+          "ancestors": [
+            11,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "21": {
+          "ancestors": [
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            22,
+            23
+          ]
+        },
+        "22": {
+          "ancestors": [
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            31
+          ]
+        },
+        "23": {
+          "ancestors": [
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            34
+          ]
+        },
+        "24": {
+          "ancestors": [
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            25,
+            26,
+            27
+          ]
+        },
+        "25": {
+          "ancestors": [
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "26": {
+          "ancestors": [
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            37,
+            39
+          ]
+        },
+        "27": {
+          "ancestors": [
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "28": {
+          "ancestors": [
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            29,
+            30
+          ]
+        },
+        "29": {
+          "ancestors": [
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "30": {
+          "ancestors": [
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            40,
+            42
+          ]
+        },
+        "31": {
+          "ancestors": [
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            32,
+            33
+          ]
+        },
+        "32": {
+          "ancestors": [
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "33": {
+          "ancestors": [
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            43,
+            44
+          ]
+        },
+        "34": {
+          "ancestors": [
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            35,
+            36
+          ]
+        },
+        "35": {
+          "ancestors": [
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "36": {
+          "ancestors": [
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            46,
+            48
+          ]
+        },
+        "37": {
+          "ancestors": [
+            26,
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            38
+          ]
+        },
+        "38": {
+          "ancestors": [
+            37,
+            26,
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "39": {
+          "ancestors": [
+            26,
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "40": {
+          "ancestors": [
+            30,
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            41
+          ]
+        },
+        "41": {
+          "ancestors": [
+            40,
+            30,
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "42": {
+          "ancestors": [
+            30,
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "43": {
+          "ancestors": [
+            33,
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "44": {
+          "ancestors": [
+            33,
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            45
+          ]
+        },
+        "45": {
+          "ancestors": [
+            44,
+            33,
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "46": {
+          "ancestors": [
+            36,
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            47
+          ]
+        },
+        "47": {
+          "ancestors": [
+            46,
+            36,
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "48": {
+          "ancestors": [
+            36,
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_34",
+        "1": "equation_31",
+        "2": "variable_10",
+        "3": "variable_9",
+        "4": "equation_21",
+        "5": "variable_1",
+        "6": "variable_12",
+        "7": "variable_30",
+        "8": "variable_6",
+        "9": "variable_7",
+        "10": "equation_20",
+        "11": "variable_11",
+        "12": "variable_29",
+        "13": "equation_6",
+        "14": "variable_3",
+        "15": "equation_17",
+        "16": "variable_27",
+        "17": "variable_28",
+        "18": "equation_3",
+        "19": "equation_4",
+        "20": "equation_5",
+        "21": "equation_16",
+        "22": "variable_25",
+        "23": "variable_26",
+        "24": "equation_14",
+        "25": "variable_15",
+        "26": "variable_23",
+        "27": "variable_8",
+        "28": "equation_15",
+        "29": "variable_16",
+        "30": "variable_24",
+        "31": "equation_11",
+        "32": "variable_13",
+        "33": "variable_21",
+        "34": "equation_12",
+        "35": "variable_14",
+        "36": "variable_22",
+        "37": "equation_9",
+        "38": "variable_19",
+        "39": "equation_29",
+        "40": "equation_10",
+        "41": "variable_20",
+        "42": "equation_30",
+        "43": "equation_27",
+        "44": "equation_7",
+        "45": "variable_17",
+        "46": "equation_8",
+        "47": "variable_18",
+        "48": "equation_28"
+      },
+      "IDs": {
+        "variable_34": 0,
+        "equation_31": 1,
+        "variable_10": 2,
+        "variable_9": 3,
+        "equation_21": 4,
+        "variable_1": 5,
+        "variable_12": 6,
+        "variable_30": 7,
+        "variable_6": 8,
+        "variable_7": 9,
+        "equation_20": 10,
+        "variable_11": 11,
+        "variable_29": 12,
+        "equation_6": 13,
+        "variable_3": 14,
+        "equation_17": 15,
+        "variable_27": 16,
+        "variable_28": 17,
+        "equation_3": 18,
+        "equation_4": 19,
+        "equation_5": 20,
+        "equation_16": 21,
+        "variable_25": 22,
+        "variable_26": 23,
+        "equation_14": 24,
+        "variable_15": 25,
+        "variable_23": 26,
+        "variable_8": 27,
+        "equation_15": 28,
+        "variable_16": 29,
+        "variable_24": 30,
+        "equation_11": 31,
+        "variable_13": 32,
+        "variable_21": 33,
+        "equation_12": 34,
+        "variable_14": 35,
+        "variable_22": 36,
+        "equation_9": 37,
+        "variable_19": 38,
+        "equation_29": 39,
+        "equation_10": 40,
+        "variable_20": 41,
+        "equation_30": 42,
+        "equation_27": 43,
+        "equation_7": 44,
+        "variable_17": 45,
+        "equation_8": 46,
+        "variable_18": 47,
+        "equation_28": 48
+      },
+      "root_variable": 34,
+      "blocked": [],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        11,
+        12,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "System.node.event|lumped|tokenA.base": null,
+    "System.node.event|lumped|tokenB.base": null,
+    "System.node.event|lumped|tokenA_tokenB.base": null,
+    "Properties.node.constant|lumped|tokenC.base": null,
+    "Properties.node.dynamic|lumped|tokenC.base": null,
+    "Properties.node.event|lumped|tokenC.base": null,
+    "Control.node.constant|lumped|signal.base": null,
+    "Control.node.dynamic|lumped|signal.base": null,
+    "Control.node.event|lumped|signal.base": null,
+    "System.arc.tokenA|mechanismA|lumped.base": null,
+    "System.arc.tokenA|mechansimB|lumped.base": null,
+    "System.arc.tokenB|mechanismC|lumped.base": null,
+    "System.arc.tokenB|mechanismD|lumped.base": null,
+    "System.node.constant|lumped|tokenB.inject A only": null,
+    "System.node.constant|lumped|tokenA.base": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4,
+            6
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            9,
+            11
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "6": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            7,
+            8
+          ]
+        },
+        "7": {
+          "ancestors": [
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "8": {
+          "ancestors": [
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "9": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            10
+          ]
+        },
+        "10": {
+          "ancestors": [
+            9,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "11": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "12": {
+          "ancestors": [
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        "13": {
+          "ancestors": [
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "15": {
+          "ancestors": [
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            19
+          ]
+        },
+        "16": {
+          "ancestors": [
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            22
+          ]
+        },
+        "17": {
+          "ancestors": [
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            23
+          ]
+        },
+        "18": {
+          "ancestors": [
+            14,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "19": {
+          "ancestors": [
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            20,
+            21
+          ]
+        },
+        "20": {
+          "ancestors": [
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            24
+          ]
+        },
+        "21": {
+          "ancestors": [
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            27
+          ]
+        },
+        "22": {
+          "ancestors": [
+            16,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "23": {
+          "ancestors": [
+            17,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "24": {
+          "ancestors": [
+            20,
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            25,
+            26
+          ]
+        },
+        "25": {
+          "ancestors": [
+            24,
+            20,
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "26": {
+          "ancestors": [
+            24,
+            20,
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "27": {
+          "ancestors": [
+            21,
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            28
+          ]
+        },
+        "28": {
+          "ancestors": [
+            27,
+            21,
+            19,
+            15,
+            12,
+            8,
+            6,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_31",
+        "1": "equation_24",
+        "2": "variable_21",
+        "3": "variable_22",
+        "4": "equation_27",
+        "5": "variable_3",
+        "6": "equation_7",
+        "7": "variable_17",
+        "8": "variable_9",
+        "9": "equation_8",
+        "10": "variable_18",
+        "11": "equation_28",
+        "12": "equation_20",
+        "13": "variable_1",
+        "14": "variable_11",
+        "15": "variable_29",
+        "16": "variable_6",
+        "17": "variable_7",
+        "18": "equation_5",
+        "19": "equation_16",
+        "20": "variable_25",
+        "21": "variable_26",
+        "22": "equation_3",
+        "23": "equation_4",
+        "24": "equation_11",
+        "25": "variable_13",
+        "26": "variable_8",
+        "27": "equation_12",
+        "28": "variable_14"
+      },
+      "IDs": {
+        "variable_31": 0,
+        "equation_24": 1,
+        "variable_21": 2,
+        "variable_22": 3,
+        "equation_27": 4,
+        "variable_3": 5,
+        "equation_7": 6,
+        "variable_17": 7,
+        "variable_9": 8,
+        "equation_8": 9,
+        "variable_18": 10,
+        "equation_28": 11,
+        "equation_20": 12,
+        "variable_1": 13,
+        "variable_11": 14,
+        "variable_29": 15,
+        "variable_6": 16,
+        "variable_7": 17,
+        "equation_5": 18,
+        "equation_16": 19,
+        "variable_25": 20,
+        "variable_26": 21,
+        "equation_3": 22,
+        "equation_4": 23,
+        "equation_11": 24,
+        "variable_13": 25,
+        "variable_8": 26,
+        "equation_12": 27,
+        "variable_14": 28
+      },
+      "root_variable": 31,
+      "blocked": [],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        11,
+        21,
+        22
+      ]
+    },
+    "System.node.constant|lumped|tokenA.inject A only": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            6
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "6": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_31",
+        "1": "equation_24",
+        "2": "variable_21",
+        "3": "variable_22",
+        "4": "equation_27",
+        "5": "variable_3",
+        "6": "equation_28"
+      },
+      "IDs": {
+        "variable_31": 0,
+        "equation_24": 1,
+        "variable_21": 2,
+        "variable_22": 3,
+        "equation_27": 4,
+        "variable_3": 5,
+        "equation_28": 6
+      },
+      "root_variable": 31,
+      "blocked": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        11,
+        12,
+        16,
+        20
+      ],
+      "buddies": [],
+      "to_be_initialised": [
+        21,
+        22
+      ]
+    },
+    "System.node.constant|lumped|tokenB.inject B only": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            6
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "6": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_32",
+        "1": "equation_25",
+        "2": "variable_23",
+        "3": "variable_24",
+        "4": "equation_29",
+        "5": "variable_3",
+        "6": "equation_30"
+      },
+      "IDs": {
+        "variable_32": 0,
+        "equation_25": 1,
+        "variable_23": 2,
+        "variable_24": 3,
+        "equation_29": 4,
+        "variable_3": 5,
+        "equation_30": 6
+      },
+      "root_variable": 32,
+      "blocked": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        14,
+        15,
+        17,
+        21
+      ],
+      "buddies": [],
+      "to_be_initialised": [
+        23,
+        24
+      ]
+    },
+    "System.node.constant|lumped|tokenA_tokenB.inject B only": null,
+    "System.node.constant|lumped|tokenA_tokenB.base": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            7
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5,
+            6
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            10,
+            12
+          ]
+        },
+        "6": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            15,
+            17
+          ]
+        },
+        "7": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            8,
+            9
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            18,
+            21
+          ]
+        },
+        "9": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            22,
+            24
+          ]
+        },
+        "10": {
+          "ancestors": [
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            11
+          ]
+        },
+        "11": {
+          "ancestors": [
+            10,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "12": {
+          "ancestors": [
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            13,
+            14
+          ]
+        },
+        "13": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            25
+          ]
+        },
+        "15": {
+          "ancestors": [
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            16
+          ]
+        },
+        "16": {
+          "ancestors": [
+            15,
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "17": {
+          "ancestors": [
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "18": {
+          "ancestors": [
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            19,
+            20
+          ]
+        },
+        "19": {
+          "ancestors": [
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            31
+          ]
+        },
+        "20": {
+          "ancestors": [
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "21": {
+          "ancestors": [
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "22": {
+          "ancestors": [
+            9,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            23
+          ]
+        },
+        "23": {
+          "ancestors": [
+            22,
+            9,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "24": {
+          "ancestors": [
+            9,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "25": {
+          "ancestors": [
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        },
+        "26": {
+          "ancestors": [
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "27": {
+          "ancestors": [
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            34
+          ]
+        },
+        "28": {
+          "ancestors": [
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            35
+          ]
+        },
+        "29": {
+          "ancestors": [
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            38
+          ]
+        },
+        "30": {
+          "ancestors": [
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            39
+          ]
+        },
+        "31": {
+          "ancestors": [
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            32,
+            33
+          ]
+        },
+        "32": {
+          "ancestors": [
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            40
+          ]
+        },
+        "33": {
+          "ancestors": [
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            41
+          ]
+        },
+        "34": {
+          "ancestors": [
+            27,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "35": {
+          "ancestors": [
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            36,
+            37
+          ]
+        },
+        "36": {
+          "ancestors": [
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            44
+          ]
+        },
+        "37": {
+          "ancestors": [
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            47
+          ]
+        },
+        "38": {
+          "ancestors": [
+            29,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "39": {
+          "ancestors": [
+            30,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "40": {
+          "ancestors": [
+            32,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "41": {
+          "ancestors": [
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            42,
+            43
+          ]
+        },
+        "42": {
+          "ancestors": [
+            41,
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            49
+          ]
+        },
+        "43": {
+          "ancestors": [
+            41,
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            51
+          ]
+        },
+        "44": {
+          "ancestors": [
+            36,
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            45,
+            46
+          ]
+        },
+        "45": {
+          "ancestors": [
+            44,
+            36,
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "46": {
+          "ancestors": [
+            44,
+            36,
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "47": {
+          "ancestors": [
+            37,
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            48
+          ]
+        },
+        "48": {
+          "ancestors": [
+            47,
+            37,
+            35,
+            28,
+            25,
+            14,
+            12,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "49": {
+          "ancestors": [
+            42,
+            41,
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            50
+          ]
+        },
+        "50": {
+          "ancestors": [
+            49,
+            42,
+            41,
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "51": {
+          "ancestors": [
+            43,
+            41,
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            52
+          ]
+        },
+        "52": {
+          "ancestors": [
+            51,
+            43,
+            41,
+            33,
+            31,
+            19,
+            18,
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_33",
+        "1": "equation_26",
+        "2": "variable_31",
+        "3": "variable_32",
+        "4": "equation_24",
+        "5": "variable_21",
+        "6": "variable_22",
+        "7": "equation_25",
+        "8": "variable_23",
+        "9": "variable_24",
+        "10": "equation_27",
+        "11": "variable_3",
+        "12": "equation_7",
+        "13": "variable_17",
+        "14": "variable_9",
+        "15": "equation_8",
+        "16": "variable_18",
+        "17": "equation_28",
+        "18": "equation_9",
+        "19": "variable_10",
+        "20": "variable_19",
+        "21": "equation_29",
+        "22": "equation_10",
+        "23": "variable_20",
+        "24": "equation_30",
+        "25": "equation_20",
+        "26": "variable_1",
+        "27": "variable_11",
+        "28": "variable_29",
+        "29": "variable_6",
+        "30": "variable_7",
+        "31": "equation_21",
+        "32": "variable_12",
+        "33": "variable_30",
+        "34": "equation_5",
+        "35": "equation_16",
+        "36": "variable_25",
+        "37": "variable_26",
+        "38": "equation_3",
+        "39": "equation_4",
+        "40": "equation_6",
+        "41": "equation_17",
+        "42": "variable_27",
+        "43": "variable_28",
+        "44": "equation_11",
+        "45": "variable_13",
+        "46": "variable_8",
+        "47": "equation_12",
+        "48": "variable_14",
+        "49": "equation_14",
+        "50": "variable_15",
+        "51": "equation_15",
+        "52": "variable_16"
+      },
+      "IDs": {
+        "variable_33": 0,
+        "equation_26": 1,
+        "variable_31": 2,
+        "variable_32": 3,
+        "equation_24": 4,
+        "variable_21": 5,
+        "variable_22": 6,
+        "equation_25": 7,
+        "variable_23": 8,
+        "variable_24": 9,
+        "equation_27": 10,
+        "variable_3": 11,
+        "equation_7": 12,
+        "variable_17": 13,
+        "variable_9": 14,
+        "equation_8": 15,
+        "variable_18": 16,
+        "equation_28": 17,
+        "equation_9": 18,
+        "variable_10": 19,
+        "variable_19": 20,
+        "equation_29": 21,
+        "equation_10": 22,
+        "variable_20": 23,
+        "equation_30": 24,
+        "equation_20": 25,
+        "variable_1": 26,
+        "variable_11": 27,
+        "variable_29": 28,
+        "variable_6": 29,
+        "variable_7": 30,
+        "equation_21": 31,
+        "variable_12": 32,
+        "variable_30": 33,
+        "equation_5": 34,
+        "equation_16": 35,
+        "variable_25": 36,
+        "variable_26": 37,
+        "equation_3": 38,
+        "equation_4": 39,
+        "equation_6": 40,
+        "equation_17": 41,
+        "variable_27": 42,
+        "variable_28": 43,
+        "equation_11": 44,
+        "variable_13": 45,
+        "variable_8": 46,
+        "equation_12": 47,
+        "variable_14": 48,
+        "equation_14": 49,
+        "variable_15": 50,
+        "equation_15": 51,
+        "variable_16": 52
+      },
+      "root_variable": 33,
+      "blocked": [],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        11,
+        12,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "System.node.constant|lumped|tokenA_tokenB.inject A and B": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            7
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5,
+            6
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            10
+          ]
+        },
+        "6": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "7": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            8,
+            9
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "9": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "10": {
+          "ancestors": [
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            11
+          ]
+        },
+        "11": {
+          "ancestors": [
+            10,
+            5,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "12": {
+          "ancestors": [
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "13": {
+          "ancestors": [
+            8,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            9,
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_33",
+        "1": "equation_26",
+        "2": "variable_31",
+        "3": "variable_32",
+        "4": "equation_24",
+        "5": "variable_21",
+        "6": "variable_22",
+        "7": "equation_25",
+        "8": "variable_23",
+        "9": "variable_24",
+        "10": "equation_27",
+        "11": "variable_3",
+        "12": "equation_28",
+        "13": "equation_29",
+        "14": "equation_30"
+      },
+      "IDs": {
+        "variable_33": 0,
+        "equation_26": 1,
+        "variable_31": 2,
+        "variable_32": 3,
+        "equation_24": 4,
+        "variable_21": 5,
+        "variable_22": 6,
+        "equation_25": 7,
+        "variable_23": 8,
+        "variable_24": 9,
+        "equation_27": 10,
+        "variable_3": 11,
+        "equation_28": 12,
+        "equation_29": 13,
+        "equation_30": 14
+      },
+      "root_variable": 33,
+      "blocked": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21
+      ],
+      "buddies": [],
+      "to_be_initialised": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "System.node.dynamic|lumped|tokenA.inject A and B": null,
+    "System.node.dynamic|lumped|tokenA.dynamic token A": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": []
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            7
+          ]
+        },
+        "4": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            9
+          ]
+        },
+        "5": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "6": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "7": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            8
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "9": {
+          "ancestors": [
+            4,
+            1,
+            0
+          ],
+          "children": [
+            10,
+            11
+          ]
+        },
+        "10": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "11": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "12": {
+          "ancestors": [
+            5,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "13": {
+          "ancestors": [
+            6,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            15,
+            16,
+            17
+          ]
+        },
+        "15": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "16": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            21
+          ]
+        },
+        "17": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "18": {
+          "ancestors": [
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            19,
+            20
+          ]
+        },
+        "19": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "20": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            23
+          ]
+        },
+        "21": {
+          "ancestors": [
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            22
+          ]
+        },
+        "22": {
+          "ancestors": [
+            21,
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "23": {
+          "ancestors": [
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            24
+          ]
+        },
+        "24": {
+          "ancestors": [
+            23,
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_9",
+        "1": "equation_20",
+        "2": "variable_1",
+        "3": "variable_11",
+        "4": "variable_29",
+        "5": "variable_6",
+        "6": "variable_7",
+        "7": "equation_5",
+        "8": "variable_3",
+        "9": "equation_16",
+        "10": "variable_25",
+        "11": "variable_26",
+        "12": "equation_3",
+        "13": "equation_4",
+        "14": "equation_11",
+        "15": "variable_13",
+        "16": "variable_21",
+        "17": "variable_8",
+        "18": "equation_12",
+        "19": "variable_14",
+        "20": "variable_22",
+        "21": "equation_7",
+        "22": "variable_17",
+        "23": "equation_8",
+        "24": "variable_18"
+      },
+      "IDs": {
+        "variable_9": 0,
+        "equation_20": 1,
+        "variable_1": 2,
+        "variable_11": 3,
+        "variable_29": 4,
+        "variable_6": 5,
+        "variable_7": 6,
+        "equation_5": 7,
+        "variable_3": 8,
+        "equation_16": 9,
+        "variable_25": 10,
+        "variable_26": 11,
+        "equation_3": 12,
+        "equation_4": 13,
+        "equation_11": 14,
+        "variable_13": 15,
+        "variable_21": 16,
+        "variable_8": 17,
+        "equation_12": 18,
+        "variable_14": 19,
+        "variable_22": 20,
+        "equation_7": 21,
+        "variable_17": 22,
+        "equation_8": 23,
+        "variable_18": 24
+      },
+      "root_variable": 9,
+      "blocked": [
+        27,
+        28
+      ],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        11,
+        21,
+        22
+      ]
+    },
+    "System.node.dynamic|lumped|tokenB.dynamic token A": null,
+    "System.node.dynamic|lumped|tokenB.dynamic token B": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": []
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            7
+          ]
+        },
+        "4": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            9
+          ]
+        },
+        "5": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            12
+          ]
+        },
+        "6": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "7": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            8
+          ]
+        },
+        "8": {
+          "ancestors": [
+            7,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "9": {
+          "ancestors": [
+            4,
+            1,
+            0
+          ],
+          "children": [
+            10,
+            11
+          ]
+        },
+        "10": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "11": {
+          "ancestors": [
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "12": {
+          "ancestors": [
+            5,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "13": {
+          "ancestors": [
+            6,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "14": {
+          "ancestors": [
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            15,
+            16,
+            17
+          ]
+        },
+        "15": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "16": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            21
+          ]
+        },
+        "17": {
+          "ancestors": [
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "18": {
+          "ancestors": [
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            19,
+            20
+          ]
+        },
+        "19": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "20": {
+          "ancestors": [
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            23
+          ]
+        },
+        "21": {
+          "ancestors": [
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            22
+          ]
+        },
+        "22": {
+          "ancestors": [
+            21,
+            16,
+            14,
+            10,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "23": {
+          "ancestors": [
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": [
+            24
+          ]
+        },
+        "24": {
+          "ancestors": [
+            23,
+            20,
+            18,
+            11,
+            9,
+            4,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_10",
+        "1": "equation_21",
+        "2": "variable_1",
+        "3": "variable_12",
+        "4": "variable_30",
+        "5": "variable_6",
+        "6": "variable_7",
+        "7": "equation_6",
+        "8": "variable_3",
+        "9": "equation_17",
+        "10": "variable_27",
+        "11": "variable_28",
+        "12": "equation_3",
+        "13": "equation_4",
+        "14": "equation_14",
+        "15": "variable_15",
+        "16": "variable_23",
+        "17": "variable_8",
+        "18": "equation_15",
+        "19": "variable_16",
+        "20": "variable_24",
+        "21": "equation_9",
+        "22": "variable_19",
+        "23": "equation_10",
+        "24": "variable_20"
+      },
+      "IDs": {
+        "variable_10": 0,
+        "equation_21": 1,
+        "variable_1": 2,
+        "variable_12": 3,
+        "variable_30": 4,
+        "variable_6": 5,
+        "variable_7": 6,
+        "equation_6": 7,
+        "variable_3": 8,
+        "equation_17": 9,
+        "variable_27": 10,
+        "variable_28": 11,
+        "equation_3": 12,
+        "equation_4": 13,
+        "equation_14": 14,
+        "variable_15": 15,
+        "variable_23": 16,
+        "variable_8": 17,
+        "equation_15": 18,
+        "variable_16": 19,
+        "variable_24": 20,
+        "equation_9": 21,
+        "variable_19": 22,
+        "equation_10": 23,
+        "variable_20": 24
+      },
+      "root_variable": 10,
+      "blocked": [
+        29,
+        30
+      ],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        12,
+        23,
+        24
+      ]
+    },
+    "System.node.dynamic|lumped|tokenA_tokenB.dynamic token B": null,
+    "System.node.dynamic|lumped|tokenA_tokenB.dynamic token A and B": {
+      "tree": {
+        "0": {
+          "ancestors": [],
+          "children": [
+            1
+          ]
+        },
+        "1": {
+          "ancestors": [
+            0
+          ],
+          "children": [
+            2,
+            3
+          ]
+        },
+        "2": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            4
+          ]
+        },
+        "3": {
+          "ancestors": [
+            1,
+            0
+          ],
+          "children": [
+            10
+          ]
+        },
+        "4": {
+          "ancestors": [
+            2,
+            1,
+            0
+          ],
+          "children": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "5": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "6": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            13
+          ]
+        },
+        "7": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            15
+          ]
+        },
+        "8": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            18
+          ]
+        },
+        "9": {
+          "ancestors": [
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            19
+          ]
+        },
+        "10": {
+          "ancestors": [
+            3,
+            1,
+            0
+          ],
+          "children": [
+            11,
+            12
+          ]
+        },
+        "11": {
+          "ancestors": [
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            20
+          ]
+        },
+        "12": {
+          "ancestors": [
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            21
+          ]
+        },
+        "13": {
+          "ancestors": [
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            14
+          ]
+        },
+        "14": {
+          "ancestors": [
+            13,
+            6,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "15": {
+          "ancestors": [
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            16,
+            17
+          ]
+        },
+        "16": {
+          "ancestors": [
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            24
+          ]
+        },
+        "17": {
+          "ancestors": [
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            28
+          ]
+        },
+        "18": {
+          "ancestors": [
+            8,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "19": {
+          "ancestors": [
+            9,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "20": {
+          "ancestors": [
+            11,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "21": {
+          "ancestors": [
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            22,
+            23
+          ]
+        },
+        "22": {
+          "ancestors": [
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            31
+          ]
+        },
+        "23": {
+          "ancestors": [
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            34
+          ]
+        },
+        "24": {
+          "ancestors": [
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            25,
+            26,
+            27
+          ]
+        },
+        "25": {
+          "ancestors": [
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "26": {
+          "ancestors": [
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            37
+          ]
+        },
+        "27": {
+          "ancestors": [
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "28": {
+          "ancestors": [
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            29,
+            30
+          ]
+        },
+        "29": {
+          "ancestors": [
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "30": {
+          "ancestors": [
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            39
+          ]
+        },
+        "31": {
+          "ancestors": [
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            32,
+            33
+          ]
+        },
+        "32": {
+          "ancestors": [
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "33": {
+          "ancestors": [
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            41
+          ]
+        },
+        "34": {
+          "ancestors": [
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            35,
+            36
+          ]
+        },
+        "35": {
+          "ancestors": [
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "36": {
+          "ancestors": [
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            43
+          ]
+        },
+        "37": {
+          "ancestors": [
+            26,
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            38
+          ]
+        },
+        "38": {
+          "ancestors": [
+            37,
+            26,
+            24,
+            16,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "39": {
+          "ancestors": [
+            30,
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": [
+            40
+          ]
+        },
+        "40": {
+          "ancestors": [
+            39,
+            30,
+            28,
+            17,
+            15,
+            7,
+            4,
+            2,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "41": {
+          "ancestors": [
+            33,
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            42
+          ]
+        },
+        "42": {
+          "ancestors": [
+            41,
+            33,
+            31,
+            22,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        },
+        "43": {
+          "ancestors": [
+            36,
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": [
+            44
+          ]
+        },
+        "44": {
+          "ancestors": [
+            43,
+            36,
+            34,
+            23,
+            21,
+            12,
+            10,
+            3,
+            1,
+            0
+          ],
+          "children": []
+        }
+      },
+      "nodes": {
+        "0": "variable_34",
+        "1": "equation_31",
+        "2": "variable_10",
+        "3": "variable_9",
+        "4": "equation_21",
+        "5": "variable_1",
+        "6": "variable_12",
+        "7": "variable_30",
+        "8": "variable_6",
+        "9": "variable_7",
+        "10": "equation_20",
+        "11": "variable_11",
+        "12": "variable_29",
+        "13": "equation_6",
+        "14": "variable_3",
+        "15": "equation_17",
+        "16": "variable_27",
+        "17": "variable_28",
+        "18": "equation_3",
+        "19": "equation_4",
+        "20": "equation_5",
+        "21": "equation_16",
+        "22": "variable_25",
+        "23": "variable_26",
+        "24": "equation_14",
+        "25": "variable_15",
+        "26": "variable_23",
+        "27": "variable_8",
+        "28": "equation_15",
+        "29": "variable_16",
+        "30": "variable_24",
+        "31": "equation_11",
+        "32": "variable_13",
+        "33": "variable_21",
+        "34": "equation_12",
+        "35": "variable_14",
+        "36": "variable_22",
+        "37": "equation_9",
+        "38": "variable_19",
+        "39": "equation_10",
+        "40": "variable_20",
+        "41": "equation_7",
+        "42": "variable_17",
+        "43": "equation_8",
+        "44": "variable_18"
+      },
+      "IDs": {
+        "variable_34": 0,
+        "equation_31": 1,
+        "variable_10": 2,
+        "variable_9": 3,
+        "equation_21": 4,
+        "variable_1": 5,
+        "variable_12": 6,
+        "variable_30": 7,
+        "variable_6": 8,
+        "variable_7": 9,
+        "equation_20": 10,
+        "variable_11": 11,
+        "variable_29": 12,
+        "equation_6": 13,
+        "variable_3": 14,
+        "equation_17": 15,
+        "variable_27": 16,
+        "variable_28": 17,
+        "equation_3": 18,
+        "equation_4": 19,
+        "equation_5": 20,
+        "equation_16": 21,
+        "variable_25": 22,
+        "variable_26": 23,
+        "equation_14": 24,
+        "variable_15": 25,
+        "variable_23": 26,
+        "variable_8": 27,
+        "equation_15": 28,
+        "variable_16": 29,
+        "variable_24": 30,
+        "equation_11": 31,
+        "variable_13": 32,
+        "variable_21": 33,
+        "equation_12": 34,
+        "variable_14": 35,
+        "variable_22": 36,
+        "equation_9": 37,
+        "variable_19": 38,
+        "equation_10": 39,
+        "variable_20": 40,
+        "equation_7": 41,
+        "variable_17": 42,
+        "equation_8": 43,
+        "variable_18": 44
+      },
+      "root_variable": 34,
+      "blocked": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "buddies": [],
+      "to_be_initialised": [
+        6,
+        7,
+        11,
+        12,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  "associations": {
+    "System": {
+      "nodes": {
+        "constant|lumped|tokenA": null,
+        "constant|lumped|tokenB": null,
+        "constant|lumped|tokenA_tokenB": null,
+        "dynamic|lumped|tokenA": null,
+        "dynamic|lumped|tokenB": null,
+        "dynamic|lumped|tokenA_tokenB": null,
+        "event|lumped|tokenA": null,
+        "event|lumped|tokenB": null,
+        "event|lumped|tokenA_tokenB": null
+      },
+      "arcs": {
+        "tokenA|mechanismA|lumped": null,
+        "tokenA|mechansimB|lumped": null,
+        "tokenB|mechanismC|lumped": null,
+        "tokenB|mechanismD|lumped": null
+      }
+    },
+    "Properties": {
+      "nodes": {
+        "constant|lumped|tokenC": null,
+        "dynamic|lumped|tokenC": null,
+        "event|lumped|tokenC": null
+      },
+      "arcs": {}
+    },
+    "Control": {
+      "nodes": {
+        "constant|lumped|signal": null,
+        "dynamic|lumped|signal": null,
+        "event|lumped|signal": null
+      },
+      "arcs": {}
+    }
+  }
+}

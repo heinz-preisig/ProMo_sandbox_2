@@ -328,7 +328,7 @@
     "29": {
       "aliases": "{'global_ID': ' V_29', 'python': 'dx', 'cpp': 'dx', 'matlab': 'dx', 'latex': '{\\\\dot{x}}', 'internal_code': 'dx'}",
       "doc": "diferential balance for token A",
-      "equations": "{16: {'rhs': ' V_25 O_0 V_26', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['25', '26']}, 32: {'rhs': ' O_11 D_0 V_29 D_7 V_5 D_1', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['29', '5']}}",
+      "equations": "{16: {'rhs': ' V_25 O_0 V_26', 'type': 'generic', 'doc': 'diferential balance for token A', 'network': 'System', 'incidence_list': ['25', '26']}}",
       "index_structures": "[1]",
       "label": "dx",
       "network": "System",
@@ -340,7 +340,7 @@
     "30": {
       "aliases": "{'global_ID': ' V_30', 'python': 'dy', 'cpp': 'dy', 'matlab': 'dy', 'latex': '{\\\\dot{y}}', 'internal_code': 'dy'}",
       "doc": "differential balance for token B",
-      "equations": "{17: {'rhs': ' V_27 O_0 V_28', 'type': 'generic', 'doc': 'differential balance for token B', 'network': 'System', 'incidence_list': ['27', '28']}, 33: {'rhs': ' O_11 D_0 V_30 D_7 V_5 D_1', 'type': 'generic', 'doc': 'differential balance for token B', 'network': 'System', 'incidence_list': ['30', '5']}}",
+      "equations": "{17: {'rhs': ' V_27 O_0 V_28', 'type': 'generic', 'doc': 'differential balance for token B', 'network': 'System', 'incidence_list': ['27', '28']}}",
       "index_structures": "[1]",
       "label": "dy",
       "network": "System",
@@ -606,6 +606,6 @@
   },
   "Ontology_global_IDs": {
     "variable": 34,
-    "equation": 33
+    "equation": 31
   }
 }
