@@ -13,27 +13,27 @@ no & equation &documentation &layer \\\hline\hline
 \endlastfoot
 
 \hyperlink{"v:4"}{ 1 }\hypertarget{"e:1"}{  } &
-    \begin{eq}{one}{_{}} := \text{Instantiate}({value}{_{}}, {value}{_{}})\end{eq} &
+    \begin{eq}{1}{_{}} := \text{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}numerical value 1\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:5"}{ 2 }\hypertarget{"e:2"}{  } &
-    \begin{eq}{null}{_{}} := \text{Instantiate}({value}{_{}}, {value}{_{}})\end{eq} &
+    \begin{eq}{0}{_{}} := \text{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}numerical value 0\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:6"}{ 3 }\hypertarget{"e:3"}{  } &
-    \begin{eq}{to}{_{N}} := \text{Instantiate}({t}{_{N}}, {value}{_{}})\end{eq} &
+    \begin{eq}{{t_o}}{_{N}} := \text{Instantiate}({t}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}starting time\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:7"}{ 4 }\hypertarget{"e:4"}{  } &
-    \begin{eq}{te}{_{N}} := \text{Instantiate}({t}{_{N}}, {value}{_{}})\end{eq} &
+    \begin{eq}{{t_e}}{_{N}} := \text{Instantiate}({t}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}end time\end{lay} &
     \begin{lay}root\end{lay} \\
 \hyperlink{"v:11"}{ 5 }\hypertarget{"e:5"}{  } &
-    \begin{eq}{{x^o}}{_{N}} := \text{Instantiate}({x}{_{N}}, {value}{_{}})\end{eq} &
+    \begin{eq}{{x^o}}{_{N}} := \text{Instantiate}({x}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}initial condition for state x\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:12"}{ 6 }\hypertarget{"e:6"}{  } &
-    \begin{eq}{{y^o}}{_{N}} := \text{Instantiate}({y}{_{N}}, {value}{_{}})\end{eq} &
+    \begin{eq}{{y^o}}{_{N}} := \text{Instantiate}({y}{_{N}}, {{\#}}{_{}})\end{eq} &
     \begin{lay}initial condition for state y\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:21"}{ 7 }\hypertarget{"e:7"}{  } &
@@ -61,11 +61,11 @@ no & equation &documentation &layer \\\hline\hline
     \begin{lay}net flow of token A due to mechanism beta\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:27"}{ 14 }\hypertarget{"e:14"}{  } &
-    \begin{eq}{{\hat{x}^{B,\gamma}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({{K^{B,\gamma}}}{_{A}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{B,\gamma}}}{_{N}}\right)\end{eq} &
+    \begin{eq}{{\hat{y}^{B,\gamma}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({{K^{B,\gamma}}}{_{A}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{B,\gamma}}}{_{N}}\right)\end{eq} &
     \begin{lay}netflow of token B due to mechanism gamma\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:28"}{ 15 }\hypertarget{"e:15"}{  } &
-    \begin{eq}{{\hat{x}^{B,\delta}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({{K^{B,\delta}}}{_{A}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{B,\delta}}}{_{N}}\right)\end{eq} &
+    \begin{eq}{{\hat{y}^{B,\delta}}}{_{N}} := {F}{_{N, A}} \stackrel{A}{\,\star\,} \left({{K^{B,\delta}}}{_{A}} \, . \, {F}{_{N, A}} \stackrel{N}{\,\star\,} {{\pi^{B,\delta}}}{_{N}}\right)\end{eq} &
     \begin{lay}netflow of token B due to mechansim beta\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:29"}{ 16 }\hypertarget{"e:16"}{  } &
@@ -73,15 +73,15 @@ no & equation &documentation &layer \\\hline\hline
     \begin{lay}diferential balance for token A\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:30"}{ 17 }\hypertarget{"e:17"}{  } &
-    \begin{eq}{{\dot{y}}}{_{N}} := {{\hat{x}^{B,\gamma}}}{_{N}}  + {{\hat{x}^{B,\delta}}}{_{N}}\end{eq} &
+    \begin{eq}{{\dot{y}}}{_{N}} := {{\hat{y}^{B,\gamma}}}{_{N}}  + {{\hat{y}^{B,\delta}}}{_{N}}\end{eq} &
     \begin{lay}differential balance for token B\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:9"}{ 20 }\hypertarget{"e:20"}{  } &
-    \begin{eq}{x}{_{N}} := \int_{ {to}{_{N}} }^{ {te}{_{N}} } \, {{\dot{x}}}{_{N}} \enskip d\,{t}{_{N}}  + {{x^o}}{_{N}}\end{eq} &
+    \begin{eq}{x}{_{N}} := \int_{ {{t_o}}{_{N}} }^{ {{t_e}}{_{N}} } \, {{\dot{x}}}{_{N}} \enskip d\,{t}{_{N}}  + {{x^o}}{_{N}}\end{eq} &
     \begin{lay}state token A\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:10"}{ 21 }\hypertarget{"e:21"}{  } &
-    \begin{eq}{y}{_{N}} := \int_{ {to}{_{N}} }^{ {te}{_{N}} } \, {{\dot{y}}}{_{N}} \enskip d\,{t}{_{N}}  + {{y^o}}{_{N}}\end{eq} &
+    \begin{eq}{y}{_{N}} := \int_{ {{t_o}}{_{N}} }^{ {{t_e}}{_{N}} } \, {{\dot{y}}}{_{N}} \enskip d\,{t}{_{N}}  + {{y^o}}{_{N}}\end{eq} &
     \begin{lay}state token B\end{lay} &
     \begin{lay}System\end{lay} \\
 \hyperlink{"v:31"}{ 24 }\hypertarget{"e:24"}{  } &
@@ -95,6 +95,26 @@ no & equation &documentation &layer \\\hline\hline
 \hyperlink{"v:33"}{ 26 }\hypertarget{"e:26"}{  } &
     \begin{eq}{{\V{\pi}^{A,B}}}{_{}} := \text{MixedStack}\left( {{\V{\pi}^A}}{_{N}},{{\V{\pi}^B}}{_{N}} \right)\end{eq} &
     \begin{lay}effort for token A, B stack\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:21"}{ 27 }\hypertarget{"e:27"}{  } &
+    \begin{eq}{{\pi^{A,\alpha}}}{_{N}} := \text{Instantiate}({{\pi^{A,\alpha}}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}effort for B mechanism alpha\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:22"}{ 28 }\hypertarget{"e:28"}{  } &
+    \begin{eq}{{\pi^{A,\beta}}}{_{N}} := \text{Instantiate}({{\pi^{A,\beta}}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}effort for A mechanism beta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:23"}{ 29 }\hypertarget{"e:29"}{  } &
+    \begin{eq}{{\pi^{B,\gamma}}}{_{N}} := \text{Instantiate}({{\pi^{B,\gamma}}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}effort for B mechanism gamma\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:24"}{ 30 }\hypertarget{"e:30"}{  } &
+    \begin{eq}{{\pi^{B,\delta}}}{_{N}} := \text{Instantiate}({{\pi^{B,\delta}}}{_{N}}, {{\#}}{_{}})\end{eq} &
+    \begin{lay}effort for B mechanism delta\end{lay} &
+    \begin{lay}System\end{lay} \\
+\hyperlink{"v:34"}{ 31 }\hypertarget{"e:31"}{  } &
+    \begin{eq}{s}{_{}} := \text{MixedStack}\left( {x}{_{N}},{y}{_{N}} \right)\end{eq} &
+    \begin{lay}mixed state\end{lay} &
     \begin{lay}System\end{lay} \\
 \hline
 \end{longtable}

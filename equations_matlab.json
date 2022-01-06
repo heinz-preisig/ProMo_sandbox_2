@@ -73,13 +73,13 @@
   },
   "14": {
     "variable_ID": 27,
-    "lhs": "fx_B_gamma",
+    "lhs": "fy_B_gamma",
     "network": "System",
     "rhs": "F * (( ( K_B_gamma )'  .* F )'  * pi_B_gamma)"
   },
   "15": {
     "variable_ID": 28,
-    "lhs": "fx_B_delta",
+    "lhs": "fy_B_delta",
     "network": "System",
     "rhs": "F * (( ( K_B_delta )'  .* F )'  * pi_B_delta)"
   },
@@ -93,7 +93,7 @@
     "variable_ID": 30,
     "lhs": "dy",
     "network": "System",
-    "rhs": "fx_B_gamma + fx_B_delta"
+    "rhs": "fy_B_gamma + fy_B_delta"
   },
   "20": {
     "variable_ID": 9,
@@ -124,5 +124,35 @@
     "lhs": "pi_stack",
     "network": "System",
     "rhs": "MixedStack(pi_A_stack,pi_B_stack)"
+  },
+  "27": {
+    "variable_ID": 21,
+    "lhs": "pi_A_alpha",
+    "network": "System",
+    "rhs": "Instantiate(pi_A_alpha, value)"
+  },
+  "28": {
+    "variable_ID": 22,
+    "lhs": "pi_A_beta",
+    "network": "System",
+    "rhs": "Instantiate(pi_A_beta, value)"
+  },
+  "29": {
+    "variable_ID": 23,
+    "lhs": "pi_B_gamma",
+    "network": "System",
+    "rhs": "Instantiate(pi_B_gamma, value)"
+  },
+  "30": {
+    "variable_ID": 24,
+    "lhs": "pi_B_delta",
+    "network": "System",
+    "rhs": "Instantiate(pi_B_delta, value)"
+  },
+  "31": {
+    "variable_ID": 34,
+    "lhs": "s",
+    "network": "System",
+    "rhs": "MixedStack(x,y)"
   }
 }

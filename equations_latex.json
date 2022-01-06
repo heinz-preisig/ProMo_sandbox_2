@@ -1,39 +1,39 @@
 {
   "1": {
     "variable_ID": 4,
-    "lhs": "{one}{_{}}",
+    "lhs": "{1}{_{}}",
     "network": "root",
-    "rhs": "\\text{Instantiate}({value}{_{}}, {value}{_{}})"
+    "rhs": "\\text{Instantiate}({{\\#}}{_{}}, {{\\#}}{_{}})"
   },
   "2": {
     "variable_ID": 5,
-    "lhs": "{null}{_{}}",
+    "lhs": "{0}{_{}}",
     "network": "root",
-    "rhs": "\\text{Instantiate}({value}{_{}}, {value}{_{}})"
+    "rhs": "\\text{Instantiate}({{\\#}}{_{}}, {{\\#}}{_{}})"
   },
   "3": {
     "variable_ID": 6,
-    "lhs": "{to}{_{N}}",
+    "lhs": "{{t_o}}{_{N}}",
     "network": "root",
-    "rhs": "\\text{Instantiate}({t}{_{N}}, {value}{_{}})"
+    "rhs": "\\text{Instantiate}({t}{_{N}}, {{\\#}}{_{}})"
   },
   "4": {
     "variable_ID": 7,
-    "lhs": "{te}{_{N}}",
+    "lhs": "{{t_e}}{_{N}}",
     "network": "root",
-    "rhs": "\\text{Instantiate}({t}{_{N}}, {value}{_{}})"
+    "rhs": "\\text{Instantiate}({t}{_{N}}, {{\\#}}{_{}})"
   },
   "5": {
     "variable_ID": 11,
     "lhs": "{{x^o}}{_{N}}",
     "network": "System",
-    "rhs": "\\text{Instantiate}({x}{_{N}}, {value}{_{}})"
+    "rhs": "\\text{Instantiate}({x}{_{N}}, {{\\#}}{_{}})"
   },
   "6": {
     "variable_ID": 12,
     "lhs": "{{y^o}}{_{N}}",
     "network": "System",
-    "rhs": "\\text{Instantiate}({y}{_{N}}, {value}{_{}})"
+    "rhs": "\\text{Instantiate}({y}{_{N}}, {{\\#}}{_{}})"
   },
   "7": {
     "variable_ID": 21,
@@ -73,13 +73,13 @@
   },
   "14": {
     "variable_ID": 27,
-    "lhs": "{{\\hat{x}^{B,\\gamma}}}{_{N}}",
+    "lhs": "{{\\hat{y}^{B,\\gamma}}}{_{N}}",
     "network": "System",
     "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\gamma}}}{_{A}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\gamma}}}{_{N}}\\right)"
   },
   "15": {
     "variable_ID": 28,
-    "lhs": "{{\\hat{x}^{B,\\delta}}}{_{N}}",
+    "lhs": "{{\\hat{y}^{B,\\delta}}}{_{N}}",
     "network": "System",
     "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\delta}}}{_{A}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\delta}}}{_{N}}\\right)"
   },
@@ -93,19 +93,19 @@
     "variable_ID": 30,
     "lhs": "{{\\dot{y}}}{_{N}}",
     "network": "System",
-    "rhs": "{{\\hat{x}^{B,\\gamma}}}{_{N}}  + {{\\hat{x}^{B,\\delta}}}{_{N}}"
+    "rhs": "{{\\hat{y}^{B,\\gamma}}}{_{N}}  + {{\\hat{y}^{B,\\delta}}}{_{N}}"
   },
   "20": {
     "variable_ID": 9,
     "lhs": "{x}{_{N}}",
     "network": "System",
-    "rhs": "\\int_{ {to}{_{N}} }^{ {te}{_{N}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{x^o}}{_{N}}"
+    "rhs": "\\int_{ {{t_o}}{_{N}} }^{ {{t_e}}{_{N}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{x^o}}{_{N}}"
   },
   "21": {
     "variable_ID": 10,
     "lhs": "{y}{_{N}}",
     "network": "System",
-    "rhs": "\\int_{ {to}{_{N}} }^{ {te}{_{N}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{y^o}}{_{N}}"
+    "rhs": "\\int_{ {{t_o}}{_{N}} }^{ {{t_e}}{_{N}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{y^o}}{_{N}}"
   },
   "24": {
     "variable_ID": 31,
@@ -124,5 +124,35 @@
     "lhs": "{{\\V{\\pi}^{A,B}}}{_{}}",
     "network": "System",
     "rhs": "\\text{MixedStack}\\left( {{\\V{\\pi}^A}}{_{N}},{{\\V{\\pi}^B}}{_{N}} \\right)"
+  },
+  "27": {
+    "variable_ID": 21,
+    "lhs": "{{\\pi^{A,\\alpha}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\pi^{A,\\alpha}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "28": {
+    "variable_ID": 22,
+    "lhs": "{{\\pi^{A,\\beta}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\pi^{A,\\beta}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "29": {
+    "variable_ID": 23,
+    "lhs": "{{\\pi^{B,\\gamma}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\pi^{B,\\gamma}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "30": {
+    "variable_ID": 24,
+    "lhs": "{{\\pi^{B,\\delta}}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Instantiate}({{\\pi^{B,\\delta}}}{_{N}}, {{\\#}}{_{}})"
+  },
+  "31": {
+    "variable_ID": 34,
+    "lhs": "{s}{_{}}",
+    "network": "System",
+    "rhs": "\\text{MixedStack}\\left( {x}{_{N}},{y}{_{N}} \\right)"
   }
 }

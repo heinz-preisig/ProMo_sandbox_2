@@ -60,12 +60,12 @@
     "rhs": " F | A | ( K_A_beta . F | N | pi_A_beta )"
   },
   "14": {
-    "lhs": "fx_B_gamma",
+    "lhs": "fy_B_gamma",
     "network": "System",
     "rhs": " F | A | ( K_B_gamma . F | N | pi_B_gamma )"
   },
   "15": {
-    "lhs": "fx_B_delta",
+    "lhs": "fy_B_delta",
     "network": "System",
     "rhs": " F | A | ( K_B_delta . F | N | pi_B_delta )"
   },
@@ -77,7 +77,7 @@
   "17": {
     "lhs": "dy",
     "network": "System",
-    "rhs": " fx_B_gamma + fx_B_delta"
+    "rhs": " fy_B_gamma + fy_B_delta"
   },
   "20": {
     "lhs": "x",
@@ -103,5 +103,30 @@
     "lhs": "pi_stack",
     "network": "System",
     "rhs": " MixedStack ( pi_A_stack , pi_B_stack )"
+  },
+  "27": {
+    "lhs": "pi_A_alpha",
+    "network": "System",
+    "rhs": " Instantiate ( pi_A_alpha , value )"
+  },
+  "28": {
+    "lhs": "pi_A_beta",
+    "network": "System",
+    "rhs": " Instantiate ( pi_A_beta , value )"
+  },
+  "29": {
+    "lhs": "pi_B_gamma",
+    "network": "System",
+    "rhs": " Instantiate ( pi_B_gamma , value )"
+  },
+  "30": {
+    "lhs": "pi_B_delta",
+    "network": "System",
+    "rhs": " Instantiate ( pi_B_delta , value )"
+  },
+  "31": {
+    "lhs": "s",
+    "network": "System",
+    "rhs": " MixedStack ( x , y )"
   }
 }
