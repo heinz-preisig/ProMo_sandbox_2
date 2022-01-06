@@ -88,5 +88,20 @@
     "lhs": "y",
     "network": "System",
     "rhs": " Integral ( dy :: t in [ to , te ] ) + yo"
+  },
+  "24": {
+    "lhs": "pi_A_stack",
+    "network": "System",
+    "rhs": " Stack ( pi_A_alpha , pi_A_beta )"
+  },
+  "25": {
+    "lhs": "pi_B_stack",
+    "network": "System",
+    "rhs": " Stack ( pi_B_gamma , pi_B_delta )"
+  },
+  "26": {
+    "lhs": "pi_stack",
+    "network": "System",
+    "rhs": " MixedStack ( pi_A_stack , pi_B_stack )"
   }
 }

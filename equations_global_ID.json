@@ -106,5 +106,23 @@
     "lhs": " V_10",
     "network": "System",
     "rhs": " O_9 D_0 V_30 D_8 V_1 O_14 D_2 V_6 D_7 V_7 D_3 D_1 O_0 V_12"
+  },
+  "24": {
+    "variable_ID": 31,
+    "lhs": " V_31",
+    "network": "System",
+    "rhs": " F_20 D_0 V_21 D_7 V_22 D_1"
+  },
+  "25": {
+    "variable_ID": 32,
+    "lhs": " V_32",
+    "network": "System",
+    "rhs": " F_20 D_0 V_23 D_7 V_24 D_1"
+  },
+  "26": {
+    "variable_ID": 33,
+    "lhs": " V_33",
+    "network": "System",
+    "rhs": " F_19 D_0 V_31 D_7 V_32 D_1"
   }
 }

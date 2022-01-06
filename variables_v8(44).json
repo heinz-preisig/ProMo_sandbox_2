@@ -350,7 +350,7 @@
       "units": "[-1, 0, 0, 0, 0, 0, 0, 0]"
     },
     "31": {
-      "aliases": "{'global_ID': ' V_31', 'python': 'pi_A_stack', 'cpp': 'pi_A_stack', 'matlab': 'pi_A_stack', 'latex': '{\\\\V{\\\\pi}^A}', 'internal_code': 'pi_A_stack'}",
+      "aliases": "{'global_ID': ' V_31', 'python': 'pi_A_stack', 'cpp': 'pi_A_stack', 'matlab': 'pi_A_stack', 'latex': 'pi_A_stack', 'internal_code': 'pi_A_stack'}",
       "doc": "effort for token A stack",
       "equations": "{24: {'rhs': ' F_20 D_0 V_21 D_7 V_22 D_1', 'type': 'generic', 'doc': 'effort for token A stack', 'network': 'System', 'incidence_list': ['21', '22']}}",
       "index_structures": "[1]",
@@ -362,7 +362,7 @@
       "units": "[0, 1, 0, 0, 0, 0, 0, 0]"
     },
     "32": {
-      "aliases": "{'global_ID': ' V_32', 'python': 'pi_B_stack', 'cpp': 'pi_B_stack', 'matlab': 'pi_B_stack', 'latex': '{\\\\V{\\\\pi}^B}', 'internal_code': 'pi_B_stack'}",
+      "aliases": "{'global_ID': ' V_32', 'python': 'pi_B_stack', 'cpp': 'pi_B_stack', 'matlab': 'pi_B_stack', 'latex': 'pi_B_stack', 'internal_code': 'pi_B_stack'}",
       "doc": "effort for token B stack",
       "equations": "{25: {'rhs': ' F_20 D_0 V_23 D_7 V_24 D_1', 'type': 'generic', 'doc': 'effort for token B stack', 'network': 'System', 'incidence_list': ['23', '24']}}",
       "index_structures": "[1]",
@@ -374,9 +374,9 @@
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     },
     "33": {
-      "aliases": "{'global_ID': ' V_33', 'python': 'pi_stack', 'cpp': 'pi_stack', 'matlab': 'pi_stack', 'latex': '{\\\\V{\\\\pi}^{A,B}}', 'internal_code': 'pi_stack'}",
-      "doc": "effort for token A, B stack",
-      "equations": "{26: {'rhs': ' F_19 D_0 V_31 D_7 V_32 D_1', 'type': 'generic', 'doc': 'effort for token A, B stack', 'network': 'System', 'incidence_list': ['31', '32']}}",
+      "aliases": "{'global_ID': ' V_33', 'python': 'pi_stack', 'cpp': 'pi_stack', 'matlab': 'pi_stack', 'latex': 'pi_stack', 'internal_code': 'pi_stack'}",
+      "doc": "effort for token A & B stack",
+      "equations": "{26: {'rhs': ' F_19 D_0 V_31 D_7 V_32 D_1', 'type': 'generic', 'doc': 'effort for token A & B stack', 'network': 'System', 'incidence_list': ['31', '32']}}",
       "index_structures": "[]",
       "label": "pi_stack",
       "network": "System",

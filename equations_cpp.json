@@ -106,5 +106,23 @@
     "lhs": "y",
     "network": "System",
     "rhs": "np.add(integral(dy,t,to,te), yo)"
+  },
+  "24": {
+    "variable_ID": 31,
+    "lhs": "pi_A_stack",
+    "network": "System",
+    "rhs": "Stack(pi_A_alpha,pi_A_beta)"
+  },
+  "25": {
+    "variable_ID": 32,
+    "lhs": "pi_B_stack",
+    "network": "System",
+    "rhs": "Stack(pi_B_gamma,pi_B_delta)"
+  },
+  "26": {
+    "variable_ID": 33,
+    "lhs": "pi_stack",
+    "network": "System",
+    "rhs": "MixedStack(pi_A_stack,pi_B_stack)"
   }
 }

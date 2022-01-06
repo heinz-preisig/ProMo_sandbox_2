@@ -106,5 +106,23 @@
     "lhs": "{y}{_{N}}",
     "network": "System",
     "rhs": "\\int_{ {to}{_{N}} }^{ {te}{_{N}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{y^o}}{_{N}}"
+  },
+  "24": {
+    "variable_ID": 31,
+    "lhs": "{{\\V{\\pi}^A}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Stack}\\left( {{\\pi^{A,\\alpha}}}{_{N}},{{\\pi^{A,\\beta}}}{_{N}} \\right)"
+  },
+  "25": {
+    "variable_ID": 32,
+    "lhs": "{{\\V{\\pi}^B}}{_{N}}",
+    "network": "System",
+    "rhs": "\\text{Stack}\\left( {{\\pi^{B,\\gamma}}}{_{N}},{{\\pi^{B,\\delta}}}{_{N}} \\right)"
+  },
+  "26": {
+    "variable_ID": 33,
+    "lhs": "{{\\V{\\pi}^{A,B}}}{_{}}",
+    "network": "System",
+    "rhs": "\\text{MixedStack}\\left( {{\\V{\\pi}^A}}{_{N}},{{\\V{\\pi}^B}}{_{N}} \\right)"
   }
 }

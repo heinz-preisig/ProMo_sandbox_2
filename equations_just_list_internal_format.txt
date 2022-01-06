@@ -16,3 +16,6 @@
 17 :: dy =  fx_B_gamma + fx_B_delta
 20 :: x =  Integral ( dx :: t in [ to , te ] ) + xo
 21 :: y =  Integral ( dy :: t in [ to , te ] ) + yo
+24 :: pi_A_stack =  Stack ( pi_A_alpha , pi_A_beta )
+25 :: pi_B_stack =  Stack ( pi_B_gamma , pi_B_delta )
+26 :: pi_stack =  MixedStack ( pi_A_stack , pi_B_stack )
