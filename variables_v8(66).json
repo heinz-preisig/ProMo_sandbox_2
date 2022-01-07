@@ -396,18 +396,6 @@
       "tokens": "[]",
       "type": "state",
       "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
-    },
-    "35": {
-      "aliases": "{'global_ID': ' V_35', 'python': 'dxy', 'cpp': 'dxy', 'matlab': 'dxy', 'latex': 'dxy', 'internal_code': 'dxy'}",
-      "doc": "mixed stack of the two accumulation terms",
-      "equations": "{34: {'rhs': ' F_19 D_0 V_29 D_7 V_30 D_1', 'type': 'generic', 'doc': 'mixed stack of the two accumulation terms', 'network': 'System', 'incidence_list': ['29', '30']}}",
-      "index_structures": "[]",
-      "label": "dxy",
-      "network": "System",
-      "port_variable": "False",
-      "tokens": "[]",
-      "type": "differentialState",
-      "units": "[0, 0, 0, 0, 0, 0, 0, 0]"
     }
   },
   "indices": {
@@ -617,7 +605,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 35,
-    "equation": 34
+    "variable": 34,
+    "equation": 33
   }
 }

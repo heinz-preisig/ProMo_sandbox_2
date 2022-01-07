@@ -26,3 +26,4 @@
 31 :: s =  MixedStack ( x , y )
 32 :: dx =  Instantiate ( dx , null )
 33 :: dy =  Instantiate ( dy , null )
+34 :: dxy =  MixedStack ( dx , dy )
