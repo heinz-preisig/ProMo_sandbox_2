@@ -13,15 +13,15 @@
   },
   "3": {
     "variable_ID": 6,
-    "lhs": "{{t_o}}{_{N}}",
+    "lhs": "{{t_o}}{_{}}",
     "network": "root",
-    "rhs": "\\text{Instantiate}({t}{_{N}}, {{\\#}}{_{}})"
+    "rhs": "\\text{Instantiate}({t}{_{}}, {{\\#}}{_{}})"
   },
   "4": {
     "variable_ID": 7,
-    "lhs": "{{t_e}}{_{N}}",
+    "lhs": "{{t_e}}{_{}}",
     "network": "root",
-    "rhs": "\\text{Instantiate}({t}{_{N}}, {{\\#}}{_{}})"
+    "rhs": "\\text{Instantiate}({t}{_{}}, {{\\#}}{_{}})"
   },
   "5": {
     "variable_ID": 11,
@@ -63,25 +63,25 @@
     "variable_ID": 25,
     "lhs": "{{\\hat{x}^{A,\\alpha}}}{_{N}}",
     "network": "System",
-    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{A,\\alpha}}}{_{A}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\alpha}}}{_{N}}\\right)"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{A,\\alpha}}}{_{A}} \\, . \\, {D}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\alpha}}}{_{N}}\\right)"
   },
   "12": {
     "variable_ID": 26,
     "lhs": "{{\\hat{x}^{A,\\beta}}}{_{N}}",
     "network": "System",
-    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{A,\\beta}}}{_{A}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\beta}}}{_{N}}\\right)"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{A,\\beta}}}{_{A}} \\, . \\, {D}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{A,\\beta}}}{_{N}}\\right)"
   },
   "14": {
     "variable_ID": 27,
     "lhs": "{{\\hat{y}^{B,\\gamma}}}{_{N}}",
     "network": "System",
-    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\gamma}}}{_{A}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\gamma}}}{_{N}}\\right)"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\gamma}}}{_{A}} \\, . \\, {D}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\gamma}}}{_{N}}\\right)"
   },
   "15": {
     "variable_ID": 28,
     "lhs": "{{\\hat{y}^{B,\\delta}}}{_{N}}",
     "network": "System",
-    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\delta}}}{_{A}} \\, . \\, {F}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\delta}}}{_{N}}\\right)"
+    "rhs": "{F}{_{N, A}} \\stackrel{A}{\\,\\star\\,} \\left({{K^{B,\\delta}}}{_{A}} \\, . \\, {D}{_{N, A}} \\stackrel{N}{\\,\\star\\,} {{\\pi^{B,\\delta}}}{_{N}}\\right)"
   },
   "16": {
     "variable_ID": 29,
@@ -99,13 +99,13 @@
     "variable_ID": 9,
     "lhs": "{x}{_{N}}",
     "network": "System",
-    "rhs": "\\int_{ {{t_o}}{_{N}} }^{ {{t_e}}{_{N}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{x^o}}{_{N}}"
+    "rhs": "\\int_{ {{t_o}}{_{}} }^{ {{t_e}}{_{}} } \\, {{\\dot{x}}}{_{N}} \\enskip d\\,{t}{_{}}  + {{x^o}}{_{N}}"
   },
   "21": {
     "variable_ID": 10,
     "lhs": "{y}{_{N}}",
     "network": "System",
-    "rhs": "\\int_{ {{t_o}}{_{N}} }^{ {{t_e}}{_{N}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{N}}  + {{y^o}}{_{N}}"
+    "rhs": "\\int_{ {{t_o}}{_{}} }^{ {{t_e}}{_{}} } \\, {{\\dot{y}}}{_{N}} \\enskip d\\,{t}{_{}}  + {{y^o}}{_{N}}"
   },
   "24": {
     "variable_ID": 31,
@@ -169,7 +169,7 @@
   },
   "34": {
     "variable_ID": 35,
-    "lhs": "{{\\V{\\dot{xy}}}}{_{}}",
+    "lhs": "{dxy}{_{}}",
     "network": "System",
     "rhs": "\\text{MixedStack}\\left( {{\\dot{x}}}{_{N}},{{\\dot{y}}}{_{N}} \\right)"
   }

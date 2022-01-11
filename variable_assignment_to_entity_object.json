@@ -3478,8 +3478,6 @@
       "to_be_initialised": [
         24
       ]
-    },
-    "System.node.dynamic|lumped|tokenA.dynamic token A and B": null,
-    "System.node.dynamic|lumped|tokenA.dynamic token B": null
+    }
   }
 }

@@ -87,7 +87,8 @@
           "transport"
         ],
         "graph": [
-          "network"
+          "network",
+          "differenceOperator"
         ],
         "node": [
           "frame",
@@ -200,6 +201,7 @@
     "variable_classes_being_state_variables": [],
     "variable_classes_having_port_variables": [
       "constant",
+      "differenceOperator",
       "frame",
       "network",
       "state"

@@ -52,22 +52,22 @@
   "11": {
     "lhs": "fx_A_alpha",
     "network": "System",
-    "rhs": " F | A | ( K_A_alpha . F | N | pi_A_alpha )"
+    "rhs": " F | A | ( K_A_alpha . D | N | pi_A_alpha )"
   },
   "12": {
     "lhs": "fx_A_beta",
     "network": "System",
-    "rhs": " F | A | ( K_A_beta . F | N | pi_A_beta )"
+    "rhs": " F | A | ( K_A_beta . D | N | pi_A_beta )"
   },
   "14": {
     "lhs": "fy_B_gamma",
     "network": "System",
-    "rhs": " F | A | ( K_B_gamma . F | N | pi_B_gamma )"
+    "rhs": " F | A | ( K_B_gamma . D | N | pi_B_gamma )"
   },
   "15": {
     "lhs": "fy_B_delta",
     "network": "System",
-    "rhs": " F | A | ( K_B_delta . F | N | pi_B_delta )"
+    "rhs": " F | A | ( K_B_delta . D | N | pi_B_delta )"
   },
   "16": {
     "lhs": "dx",

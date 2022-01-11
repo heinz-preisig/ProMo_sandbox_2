@@ -63,25 +63,25 @@
     "variable_ID": 25,
     "lhs": "fx_A_alpha",
     "network": "System",
-    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_A_alpha), F)), pi_A_alpha)))"
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_A_alpha), D)), pi_A_alpha)))"
   },
   "12": {
     "variable_ID": 26,
     "lhs": "fx_A_beta",
     "network": "System",
-    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_A_beta), F)), pi_A_beta)))"
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_A_beta), D)), pi_A_beta)))"
   },
   "14": {
     "variable_ID": 27,
     "lhs": "fy_B_gamma",
     "network": "System",
-    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_B_gamma), F)), pi_B_gamma)))"
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_B_gamma), D)), pi_B_gamma)))"
   },
   "15": {
     "variable_ID": 28,
     "lhs": "fy_B_delta",
     "network": "System",
-    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_B_delta), F)), pi_B_delta)))"
+    "rhs": "np.dot(F, (np.dot(np.transpose(ganger(np.transpose(K_B_delta), D)), pi_B_delta)))"
   },
   "16": {
     "variable_ID": 29,
